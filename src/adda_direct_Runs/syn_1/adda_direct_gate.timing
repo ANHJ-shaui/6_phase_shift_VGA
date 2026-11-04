@@ -1,0 +1,1195 @@
+Created by          : Tang Dynasty v6.2.168116
+                    : Copyright (c) 2012-2025 Anlogic Inc.
+Generated           : Tue Oct 27 17:18:50 2026
+
+Top Model           : adda_direct
+Device              : EG4S20BG256
+Speed               : NA
+STA coverage        : 88.91%
+Constraint File     : 
+Confidence          : Synthesized
+Check Corner        : Both (Slow and Fast)
+CRPR Enabled        : Yes
+Report Scheme       : 10 end point(s) per path group, 1 path(s) per end point
+
+
+Check Status
+-------------
+
+Corner   | Max      Min     
+------------------------------------
+Slow     | yes      yes     
+Fast     | yes      yes     
+
+
+Timing Status
+--------------------
+	SWNS: 1.798ns, STNS: 0.000ns
+	HWNS: 0.471ns, HTNS: 0.000ns
+	Period Check WNS: 16.586ns
+
+
+Clock Summary
+--------------------
+
+       Clock-Id:       C-Freq       Fanout   Clock-Name
+--------------------------------------------------------------------------------
+           clk0:       50.000         2221   DeriveClock
+--------------------------------------------------------------------------------
+
+       Name            Type         Rise(ns)   Fall(ns)          C-Period(ns)     C-Freq(MHz)          R-Period(ns)     R-Freq(MHz)         SWNS(ns)   STNS(ns)         HWNS(ns)   HTNS(ns)         Skew(ns)           Fanout        Max-Level        CC-From    CC-To
+       clk0           local            0.000     10.000                20.000          50.000                18.202          54.939            1.798      0.000            0.471      0.000            0.000             2221               17             no       no
+
+Notes
+----------
+C-Period  :  constraint period
+C-Freq    :  constraint freq
+R-Period  :  report min period
+R-Freq    :  report fmax
+CC-From   :  has path(s) from cross-domain clock
+CC-To     :  has path(s) to cross-domain clock
+
+
+*   Clock R-Period data only takes intra-clock timing. SWNS/STNS/HWNS/HTNS take both intra-clock and inter-clock timing.
+*   If there is mismatch between R-Period and SWNS, check inter-clock timing of this clock as capture clock.
+*   SWNS/STNS/HWNS/HTNS of timing exception (SMCP/SMD) only counted in global Timing Status, not counted in Clock Summary.
+
+Intra clock domain timing
+--------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Path Group     :     DeriveClock -> DeriveClock
+Type           :     Self
+From Clock     :     DeriveClock
+To Clock       :     DeriveClock
+Min Period     :     18.202ns
+Fmax           :     54.939MHz
+
+Statistics:
+Max            : SWNS      1.798ns, STNS      0.000ns,         0 Viol Endpoints,      2695 Total Endpoints,    125889 Paths Analyzed
+Min            : HWNS      0.471ns, HTNS      0.000ns,         0 Viol Endpoints,      2695 Total Endpoints,    125889 Paths Analyzed
+----------------------------------------------------------------------------------------------------
+
+Max Paths
+----------------------------------------------------------------------------------------------------
+Slack               : 1.798ns
+Begin Point         : u_vga/u_timing/x_reg[0].clk (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+End Point           : u_vga/u_text/ramread0_syn_5.addra[6] (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+Check Type          : setup
+Process             : slow
+Budget              : 20.000ns { DeriveClock rising@20.000ns - DeriveClock rising@0.000ns }
+Data Path Delay     : 17.952ns (cell 7.184ns (40%), net 10.768ns (60%))
+Clock Skew          : 0.000ns
+Logic Level         : 17 ( LUT4=6  ADDER=4  LUT5=2  LUT3=2  LUT2=1  LUT1=1  EMB=1 )
+Max Fanout          : 61
+Clock Uncertainty   : 0.000ns (sdc uncertainty: 0.000ns, default uncertainty: 0.000ns)
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+launch edge                             0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+SEQ (clk2q)                             0.146    r     0.146          pin: u_vga/u_timing/x_reg[0].q
+net (fo=10)                             0.869          1.015          net: u_vga/px[0],  ../../vga_ui_p5.v(53)
+                                                                      pin: u_vga/sub0_syn_66.a[1]
+ADDER                                   0.627    f     1.642       1  pin: u_vga/sub0_syn_66.fco
+net (fo=1)                              0.000          1.642          net: u_vga/sub0_syn_48,  ../../vga_ui_p5.v(122)
+                                                                      pin: u_vga/u_timing/x_reg[2]_syn_4.fci
+ADDER                                   0.073    f     1.715          pin: u_vga/u_timing/x_reg[2]_syn_4.fco
+net (fo=1)                              0.000          1.715          net: u_vga/sub0_syn_50,  ../../vga_ui_p5.v(122)
+                                                                      pin: u_vga/sub0_syn_68.fci
+ADDER                                   0.355    f     2.070       2  pin: u_vga/sub0_syn_68.f[1]
+net (fo=61)                             1.210          3.280          net: u_vga/wave_addr_b1[4],  NOFILE(0)
+                                                                      pin: u_vga/wave_addr_b1[4]_syn_69.a
+LUT1                                    0.408    f     3.688       3  pin: u_vga/wave_addr_b1[4]_syn_69.o
+net (fo=13)                             0.920          4.608          net: u_vga/wave_addr_b1[4]_syn_2,  NOFILE(0)
+                                                                      pin: u_vga/u_text/lt38_syn_108.a[1]
+ADDER                                   0.627    f     5.235       4  pin: u_vga/u_text/lt38_syn_108.fco
+net (fo=1)                              0.000          5.235          net: u_vga/u_text/lt38_syn_91,  ../../vga_text_p5.v(189)
+                                                                      pin: u_vga/u_text/lt38_syn_111.fci
+ADDER                                   0.073    f     5.308          pin: u_vga/u_text/lt38_syn_111.fco
+net (fo=1)                              0.000          5.308          net: u_vga/u_text/lt38_syn_93,  ../../vga_text_p5.v(189)
+                                                                      pin: u_vga/u_text/lt38_syn_114.fci
+ADDER                                   0.355    f     5.663       5  pin: u_vga/u_text/lt38_syn_114.f[1]
+net (fo=2)                              0.600          6.263          net: u_vga/u_text/lt38_syn_5[4],  ../../vga_text_p5.v(189)
+                                                                      pin: u_vga/u_text/sub18_syn_77.b
+LUT3                                    0.408    f     6.671       6  pin: u_vga/u_text/sub18_syn_77.o
+net (fo=17)                             0.972          7.643          net: u_vga/u_text/sub18_syn_78,  ../../vga_text_p5.v(420)
+                                                                      pin: u_vga/u_text/sub18_syn_79.a
+LUT2                                    0.408    f     8.051       7  pin: u_vga/u_text/sub18_syn_79.o
+net (fo=8)                              0.825          8.876          net: u_vga/u_text/eq10_syn_49,  ../../vga_text_p5.v(184)
+                                                                      pin: u_vga/u_text/sub18_syn_82.a
+LUT3                                    0.408    f     9.284       8  pin: u_vga/u_text/sub18_syn_82.o
+net (fo=7)                              0.800         10.084          net: u_vga/u_text/ch_n38,  NOFILE(0)
+                                                                      pin: u_vga/u_text/ch[0]_syn_43.a
+LUT4                                    0.408    f    10.492       9  pin: u_vga/u_text/ch[0]_syn_43.o
+net (fo=2)                              0.600         11.092          net: u_vga/u_text/ch[0]_syn_44,  ../../vga_text_p5.v(161)
+                                                                      pin: u_vga/u_text/ch[0]_syn_51.a
+LUT4                                    0.408    f    11.500      10  pin: u_vga/u_text/ch[0]_syn_51.o
+net (fo=1)                              0.562         12.062          net: u_vga/u_text/ch[0]_syn_52,  ../../vga_text_p5.v(161)
+                                                                      pin: u_vga/u_text/ch[0]_syn_53.a
+LUT4                                    0.408    f    12.470      11  pin: u_vga/u_text/ch[0]_syn_53.o
+net (fo=1)                              0.562         13.032          net: u_vga/u_text/ch[0]_syn_54,  ../../vga_text_p5.v(161)
+                                                                      pin: u_vga/u_text/ch[0]_syn_55.a
+LUT4                                    0.408    f    13.440      12  pin: u_vga/u_text/ch[0]_syn_55.o
+net (fo=1)                              0.562         14.002          net: u_vga/u_text/ch[0]_syn_56,  ../../vga_text_p5.v(161)
+                                                                      pin: u_vga/u_text/ch[0]_syn_67.a
+LUT5                                    0.424    f    14.426      13  pin: u_vga/u_text/ch[0]_syn_67.o
+net (fo=1)                              0.562         14.988          net: u_vga/u_text/ch[0]_syn_68,  ../../vga_text_p5.v(161)
+                                                                      pin: u_vga/u_text/ch[0]_syn_88.a
+LUT5                                    0.424    f    15.412      14  pin: u_vga/u_text/ch[0]_syn_88.o
+net (fo=1)                              0.562         15.974          net: u_vga/u_text/ch[0]_syn_2,  ../../vga_text_p5.v(161)
+                                                                      pin: u_vga/u_text/ch[0]_syn_101.a
+LUT4                                    0.408    f    16.382      15  pin: u_vga/u_text/ch[0]_syn_101.o
+net (fo=1)                              0.562         16.944          net: u_vga/u_text/ch[0]_syn_102,  ../../vga_text_p5.v(161)
+                                                                      pin: u_vga/u_text/ch[0]_syn_119.a
+LUT4                                    0.408    f    17.352      16  pin: u_vga/u_text/ch[0]_syn_119.o
+net (fo=2)                              0.600         17.952          net: u_vga/u_text/ch[0]_syn_22,  ../../vga_text_p5.v(161)
+                                                                      pin: u_vga/u_text/ramread0_syn_5.addra[6]
+EMB (reg)                               0.000    f    17.952      17       
+--------------------------------------------------------------------  ---------------
+Arrival                                               17.952               
+
+capture edge                           20.000    r    20.000               
+--------------------------------------------------------------------  ---------------
+setup                                  -0.250         19.750               
+clock uncertainty                       0.000         19.750               
+clock pessimism                         0.000         19.750               
+--------------------------------------------------------------------  ---------------
+Required                                              19.750               
+--------------------------------------------------------------------  ---------------
+Slack                                                  1.798               
+
+Slack               : 1.798ns
+Begin Point         : u_vga/u_timing/x_reg[0].clk (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+End Point           : u_vga/u_text/ramread0_syn_10.addra[6] (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+Check Type          : setup
+Process             : slow
+Budget              : 20.000ns { DeriveClock rising@20.000ns - DeriveClock rising@0.000ns }
+Data Path Delay     : 17.952ns (cell 7.184ns (40%), net 10.768ns (60%))
+Clock Skew          : 0.000ns
+Logic Level         : 17 ( LUT4=6  ADDER=4  LUT5=2  LUT3=2  LUT2=1  LUT1=1  EMB=1 )
+Max Fanout          : 61
+Clock Uncertainty   : 0.000ns (sdc uncertainty: 0.000ns, default uncertainty: 0.000ns)
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+launch edge                             0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+SEQ (clk2q)                             0.146    r     0.146          pin: u_vga/u_timing/x_reg[0].q
+net (fo=10)                             0.869          1.015          net: u_vga/px[0],  ../../vga_ui_p5.v(53)
+                                                                      pin: u_vga/sub0_syn_66.a[1]
+ADDER                                   0.627    f     1.642       1  pin: u_vga/sub0_syn_66.fco
+net (fo=1)                              0.000          1.642          net: u_vga/sub0_syn_48,  ../../vga_ui_p5.v(122)
+                                                                      pin: u_vga/u_timing/x_reg[2]_syn_4.fci
+ADDER                                   0.073    f     1.715          pin: u_vga/u_timing/x_reg[2]_syn_4.fco
+net (fo=1)                              0.000          1.715          net: u_vga/sub0_syn_50,  ../../vga_ui_p5.v(122)
+                                                                      pin: u_vga/sub0_syn_68.fci
+ADDER                                   0.355    f     2.070       2  pin: u_vga/sub0_syn_68.f[1]
+net (fo=61)                             1.210          3.280          net: u_vga/wave_addr_b1[4],  NOFILE(0)
+                                                                      pin: u_vga/wave_addr_b1[4]_syn_69.a
+LUT1                                    0.408    f     3.688       3  pin: u_vga/wave_addr_b1[4]_syn_69.o
+net (fo=13)                             0.920          4.608          net: u_vga/wave_addr_b1[4]_syn_2,  NOFILE(0)
+                                                                      pin: u_vga/u_text/lt38_syn_108.a[1]
+ADDER                                   0.627    f     5.235       4  pin: u_vga/u_text/lt38_syn_108.fco
+net (fo=1)                              0.000          5.235          net: u_vga/u_text/lt38_syn_91,  ../../vga_text_p5.v(189)
+                                                                      pin: u_vga/u_text/lt38_syn_111.fci
+ADDER                                   0.073    f     5.308          pin: u_vga/u_text/lt38_syn_111.fco
+net (fo=1)                              0.000          5.308          net: u_vga/u_text/lt38_syn_93,  ../../vga_text_p5.v(189)
+                                                                      pin: u_vga/u_text/lt38_syn_114.fci
+ADDER                                   0.355    f     5.663       5  pin: u_vga/u_text/lt38_syn_114.f[1]
+net (fo=2)                              0.600          6.263          net: u_vga/u_text/lt38_syn_5[4],  ../../vga_text_p5.v(189)
+                                                                      pin: u_vga/u_text/sub18_syn_77.b
+LUT3                                    0.408    f     6.671       6  pin: u_vga/u_text/sub18_syn_77.o
+net (fo=17)                             0.972          7.643          net: u_vga/u_text/sub18_syn_78,  ../../vga_text_p5.v(420)
+                                                                      pin: u_vga/u_text/sub18_syn_79.a
+LUT2                                    0.408    f     8.051       7  pin: u_vga/u_text/sub18_syn_79.o
+net (fo=8)                              0.825          8.876          net: u_vga/u_text/eq10_syn_49,  ../../vga_text_p5.v(184)
+                                                                      pin: u_vga/u_text/sub18_syn_82.a
+LUT3                                    0.408    f     9.284       8  pin: u_vga/u_text/sub18_syn_82.o
+net (fo=7)                              0.800         10.084          net: u_vga/u_text/ch_n38,  NOFILE(0)
+                                                                      pin: u_vga/u_text/ch[0]_syn_43.a
+LUT4                                    0.408    f    10.492       9  pin: u_vga/u_text/ch[0]_syn_43.o
+net (fo=2)                              0.600         11.092          net: u_vga/u_text/ch[0]_syn_44,  ../../vga_text_p5.v(161)
+                                                                      pin: u_vga/u_text/ch[0]_syn_51.a
+LUT4                                    0.408    f    11.500      10  pin: u_vga/u_text/ch[0]_syn_51.o
+net (fo=1)                              0.562         12.062          net: u_vga/u_text/ch[0]_syn_52,  ../../vga_text_p5.v(161)
+                                                                      pin: u_vga/u_text/ch[0]_syn_53.a
+LUT4                                    0.408    f    12.470      11  pin: u_vga/u_text/ch[0]_syn_53.o
+net (fo=1)                              0.562         13.032          net: u_vga/u_text/ch[0]_syn_54,  ../../vga_text_p5.v(161)
+                                                                      pin: u_vga/u_text/ch[0]_syn_55.a
+LUT4                                    0.408    f    13.440      12  pin: u_vga/u_text/ch[0]_syn_55.o
+net (fo=1)                              0.562         14.002          net: u_vga/u_text/ch[0]_syn_56,  ../../vga_text_p5.v(161)
+                                                                      pin: u_vga/u_text/ch[0]_syn_67.a
+LUT5                                    0.424    f    14.426      13  pin: u_vga/u_text/ch[0]_syn_67.o
+net (fo=1)                              0.562         14.988          net: u_vga/u_text/ch[0]_syn_68,  ../../vga_text_p5.v(161)
+                                                                      pin: u_vga/u_text/ch[0]_syn_88.a
+LUT5                                    0.424    f    15.412      14  pin: u_vga/u_text/ch[0]_syn_88.o
+net (fo=1)                              0.562         15.974          net: u_vga/u_text/ch[0]_syn_2,  ../../vga_text_p5.v(161)
+                                                                      pin: u_vga/u_text/ch[0]_syn_101.a
+LUT4                                    0.408    f    16.382      15  pin: u_vga/u_text/ch[0]_syn_101.o
+net (fo=1)                              0.562         16.944          net: u_vga/u_text/ch[0]_syn_102,  ../../vga_text_p5.v(161)
+                                                                      pin: u_vga/u_text/ch[0]_syn_119.a
+LUT4                                    0.408    f    17.352      16  pin: u_vga/u_text/ch[0]_syn_119.o
+net (fo=2)                              0.600         17.952          net: u_vga/u_text/ch[0]_syn_22,  ../../vga_text_p5.v(161)
+                                                                      pin: u_vga/u_text/ramread0_syn_10.addra[6]
+EMB (reg)                               0.000    f    17.952      17       
+--------------------------------------------------------------------  ---------------
+Arrival                                               17.952               
+
+capture edge                           20.000    r    20.000               
+--------------------------------------------------------------------  ---------------
+setup                                  -0.250         19.750               
+clock uncertainty                       0.000         19.750               
+clock pessimism                         0.000         19.750               
+--------------------------------------------------------------------  ---------------
+Required                                              19.750               
+--------------------------------------------------------------------  ---------------
+Slack                                                  1.798               
+
+Slack               : 4.662ns
+Begin Point         : fq1_reg[15].clk (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+End Point           : u_vga/u_text/freq_bcd_reg[1].d (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+Check Type          : setup
+Process             : slow
+Budget              : 20.000ns { DeriveClock rising@20.000ns - DeriveClock rising@0.000ns }
+Data Path Delay     : 15.222ns (cell 5.320ns (34%), net 9.902ns (66%))
+Clock Skew          : 0.000ns
+Logic Level         : 12 ( LUT5=10  LUT4=1  LUT2=1 )
+Max Fanout          : 9
+Clock Uncertainty   : 0.000ns (sdc uncertainty: 0.000ns, default uncertainty: 0.000ns)
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+launch edge                             0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+SEQ (clk2q)                             0.146    r     0.146          pin: fq1_reg[15].q
+net (fo=1)                              0.000          0.146          net: fq1[15]_syn_3,  ../../adda_direct.v(387)
+                                                                      pin: fq1[15]_syn_1.i
+BUFKEEP                                 0.000    f     0.146          pin: fq1[15]_syn_1.o
+net (fo=1)                              0.000          0.146          net: fq1[15],  ../../adda_direct.v(387)
+                                                                      pin: fq1[15]_syn_2.i
+BUFKEEP                                 0.000    f     0.146          pin: fq1[15]_syn_2.o
+net (fo=5)                              0.737          0.883          net: u_vga/u_text/freq_centi[15],  ../../vga_text_p5.v(34)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_1.a
+LUT5                                    0.424    f     1.307       1  pin: u_vga/u_text/freq_bcd_b1[13]_syn_1.o
+net (fo=6)                              0.770          2.077          net: u_vga/u_text/freq_bcd_b1[13]_syn_2,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_9.a
+LUT5                                    0.424    f     2.501       2  pin: u_vga/u_text/freq_bcd_b1[13]_syn_9.o
+net (fo=7)                              0.800          3.301          net: u_vga/u_text/freq_bcd_b1[13]_syn_10,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_13.b
+LUT5                                    0.424    f     3.725       3  pin: u_vga/u_text/freq_bcd_b1[13]_syn_13.o
+net (fo=8)                              0.825          4.550          net: u_vga/u_text/freq_bcd_b1[13]_syn_14,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_27.a
+LUT4                                    0.408    f     4.958       4  pin: u_vga/u_text/freq_bcd_b1[13]_syn_27.o
+net (fo=2)                              0.600          5.558          net: u_vga/u_text/freq_bcd_b1[13]_syn_28,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_31.a
+LUT2                                    0.408    f     5.966       5  pin: u_vga/u_text/freq_bcd_b1[13]_syn_31.o
+net (fo=6)                              0.770          6.736          net: u_vga/u_text/freq_bcd_b1[13]_syn_32,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_51.a
+LUT5                                    0.424    f     7.160       6  pin: u_vga/u_text/freq_bcd_b1[13]_syn_51.o
+net (fo=7)                              0.800          7.960          net: u_vga/u_text/freq_bcd_b1[13]_syn_52,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_55.a
+LUT5                                    0.424    f     8.384       7  pin: u_vga/u_text/freq_bcd_b1[13]_syn_55.o
+net (fo=8)                              0.825          9.209          net: u_vga/u_text/freq_bcd_b1[13]_syn_56,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_74.a
+LUT5                                    0.424    f     9.633       8  pin: u_vga/u_text/freq_bcd_b1[13]_syn_74.o
+net (fo=6)                              0.770         10.403          net: u_vga/u_text/freq_bcd_b1[13]_syn_75,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_102.a
+LUT5                                    0.424    f    10.827       9  pin: u_vga/u_text/freq_bcd_b1[13]_syn_102.o
+net (fo=6)                              0.770         11.597          net: u_vga/u_text/freq_bcd_b1[13]_syn_103,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[9]_syn_3.a
+LUT5                                    0.424    f    12.021      10  pin: u_vga/u_text/freq_bcd_b1[9]_syn_3.o
+net (fo=9)                              0.848         12.869          net: u_vga/u_text/freq_bcd_b1[9]_syn_4,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[5]_syn_3.a
+LUT5                                    0.424    f    13.293      11  pin: u_vga/u_text/freq_bcd_b1[5]_syn_3.o
+net (fo=8)                              0.825         14.118          net: u_vga/u_text/freq_bcd_b1[5]_syn_4,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[1]_syn_5.a
+LUT5                                    0.424    f    14.542      12  pin: u_vga/u_text/freq_bcd_b1[1]_syn_5.o
+net (fo=1)                              0.562         15.104          net: u_vga/u_text/freq_bcd_b1[1],  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_reg[1].d
+SEQ (reg)                               0.118    f    15.222          net: u_vga/u_text/f0[1],  ../../vga_text_p5.v(152)
+--------------------------------------------------------------------  ---------------
+Arrival                                               15.222               
+
+capture edge                           20.000    r    20.000               
+--------------------------------------------------------------------  ---------------
+setup                                  -0.116         19.884               
+clock uncertainty                       0.000         19.884               
+clock pessimism                         0.000         19.884               
+--------------------------------------------------------------------  ---------------
+Required                                              19.884               
+--------------------------------------------------------------------  ---------------
+Slack                                                  4.662               
+
+Slack               : 4.662ns
+Begin Point         : fq1_reg[15].clk (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+End Point           : u_vga/u_text/freq_bcd_reg[2].d (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+Check Type          : setup
+Process             : slow
+Budget              : 20.000ns { DeriveClock rising@20.000ns - DeriveClock rising@0.000ns }
+Data Path Delay     : 15.222ns (cell 5.320ns (34%), net 9.902ns (66%))
+Clock Skew          : 0.000ns
+Logic Level         : 12 ( LUT5=10  LUT4=1  LUT2=1 )
+Max Fanout          : 9
+Clock Uncertainty   : 0.000ns (sdc uncertainty: 0.000ns, default uncertainty: 0.000ns)
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+launch edge                             0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+SEQ (clk2q)                             0.146    r     0.146          pin: fq1_reg[15].q
+net (fo=1)                              0.000          0.146          net: fq1[15]_syn_3,  ../../adda_direct.v(387)
+                                                                      pin: fq1[15]_syn_1.i
+BUFKEEP                                 0.000    f     0.146          pin: fq1[15]_syn_1.o
+net (fo=1)                              0.000          0.146          net: fq1[15],  ../../adda_direct.v(387)
+                                                                      pin: fq1[15]_syn_2.i
+BUFKEEP                                 0.000    f     0.146          pin: fq1[15]_syn_2.o
+net (fo=5)                              0.737          0.883          net: u_vga/u_text/freq_centi[15],  ../../vga_text_p5.v(34)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_1.a
+LUT5                                    0.424    f     1.307       1  pin: u_vga/u_text/freq_bcd_b1[13]_syn_1.o
+net (fo=6)                              0.770          2.077          net: u_vga/u_text/freq_bcd_b1[13]_syn_2,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_9.a
+LUT5                                    0.424    f     2.501       2  pin: u_vga/u_text/freq_bcd_b1[13]_syn_9.o
+net (fo=7)                              0.800          3.301          net: u_vga/u_text/freq_bcd_b1[13]_syn_10,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_13.b
+LUT5                                    0.424    f     3.725       3  pin: u_vga/u_text/freq_bcd_b1[13]_syn_13.o
+net (fo=8)                              0.825          4.550          net: u_vga/u_text/freq_bcd_b1[13]_syn_14,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_27.a
+LUT4                                    0.408    f     4.958       4  pin: u_vga/u_text/freq_bcd_b1[13]_syn_27.o
+net (fo=2)                              0.600          5.558          net: u_vga/u_text/freq_bcd_b1[13]_syn_28,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_31.a
+LUT2                                    0.408    f     5.966       5  pin: u_vga/u_text/freq_bcd_b1[13]_syn_31.o
+net (fo=6)                              0.770          6.736          net: u_vga/u_text/freq_bcd_b1[13]_syn_32,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_51.a
+LUT5                                    0.424    f     7.160       6  pin: u_vga/u_text/freq_bcd_b1[13]_syn_51.o
+net (fo=7)                              0.800          7.960          net: u_vga/u_text/freq_bcd_b1[13]_syn_52,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_55.a
+LUT5                                    0.424    f     8.384       7  pin: u_vga/u_text/freq_bcd_b1[13]_syn_55.o
+net (fo=8)                              0.825          9.209          net: u_vga/u_text/freq_bcd_b1[13]_syn_56,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_74.a
+LUT5                                    0.424    f     9.633       8  pin: u_vga/u_text/freq_bcd_b1[13]_syn_74.o
+net (fo=6)                              0.770         10.403          net: u_vga/u_text/freq_bcd_b1[13]_syn_75,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_102.a
+LUT5                                    0.424    f    10.827       9  pin: u_vga/u_text/freq_bcd_b1[13]_syn_102.o
+net (fo=6)                              0.770         11.597          net: u_vga/u_text/freq_bcd_b1[13]_syn_103,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[9]_syn_3.a
+LUT5                                    0.424    f    12.021      10  pin: u_vga/u_text/freq_bcd_b1[9]_syn_3.o
+net (fo=9)                              0.848         12.869          net: u_vga/u_text/freq_bcd_b1[9]_syn_4,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[5]_syn_3.a
+LUT5                                    0.424    f    13.293      11  pin: u_vga/u_text/freq_bcd_b1[5]_syn_3.o
+net (fo=8)                              0.825         14.118          net: u_vga/u_text/freq_bcd_b1[5]_syn_4,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[2]_syn_1.a
+LUT5                                    0.424    f    14.542      12  pin: u_vga/u_text/freq_bcd_b1[2]_syn_1.o
+net (fo=1)                              0.562         15.104          net: u_vga/u_text/freq_bcd_b1[2],  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_reg[2].d
+SEQ (reg)                               0.118    f    15.222          net: u_vga/u_text/f0[2],  ../../vga_text_p5.v(152)
+--------------------------------------------------------------------  ---------------
+Arrival                                               15.222               
+
+capture edge                           20.000    r    20.000               
+--------------------------------------------------------------------  ---------------
+setup                                  -0.116         19.884               
+clock uncertainty                       0.000         19.884               
+clock pessimism                         0.000         19.884               
+--------------------------------------------------------------------  ---------------
+Required                                              19.884               
+--------------------------------------------------------------------  ---------------
+Slack                                                  4.662               
+
+Slack               : 4.662ns
+Begin Point         : fq1_reg[15].clk (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+End Point           : u_vga/u_text/freq_bcd_reg[3].d (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+Check Type          : setup
+Process             : slow
+Budget              : 20.000ns { DeriveClock rising@20.000ns - DeriveClock rising@0.000ns }
+Data Path Delay     : 15.222ns (cell 5.320ns (34%), net 9.902ns (66%))
+Clock Skew          : 0.000ns
+Logic Level         : 12 ( LUT5=10  LUT4=1  LUT2=1 )
+Max Fanout          : 9
+Clock Uncertainty   : 0.000ns (sdc uncertainty: 0.000ns, default uncertainty: 0.000ns)
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+launch edge                             0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+SEQ (clk2q)                             0.146    r     0.146          pin: fq1_reg[15].q
+net (fo=1)                              0.000          0.146          net: fq1[15]_syn_3,  ../../adda_direct.v(387)
+                                                                      pin: fq1[15]_syn_1.i
+BUFKEEP                                 0.000    f     0.146          pin: fq1[15]_syn_1.o
+net (fo=1)                              0.000          0.146          net: fq1[15],  ../../adda_direct.v(387)
+                                                                      pin: fq1[15]_syn_2.i
+BUFKEEP                                 0.000    f     0.146          pin: fq1[15]_syn_2.o
+net (fo=5)                              0.737          0.883          net: u_vga/u_text/freq_centi[15],  ../../vga_text_p5.v(34)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_1.a
+LUT5                                    0.424    f     1.307       1  pin: u_vga/u_text/freq_bcd_b1[13]_syn_1.o
+net (fo=6)                              0.770          2.077          net: u_vga/u_text/freq_bcd_b1[13]_syn_2,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_9.a
+LUT5                                    0.424    f     2.501       2  pin: u_vga/u_text/freq_bcd_b1[13]_syn_9.o
+net (fo=7)                              0.800          3.301          net: u_vga/u_text/freq_bcd_b1[13]_syn_10,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_13.b
+LUT5                                    0.424    f     3.725       3  pin: u_vga/u_text/freq_bcd_b1[13]_syn_13.o
+net (fo=8)                              0.825          4.550          net: u_vga/u_text/freq_bcd_b1[13]_syn_14,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_27.a
+LUT4                                    0.408    f     4.958       4  pin: u_vga/u_text/freq_bcd_b1[13]_syn_27.o
+net (fo=2)                              0.600          5.558          net: u_vga/u_text/freq_bcd_b1[13]_syn_28,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_31.a
+LUT2                                    0.408    f     5.966       5  pin: u_vga/u_text/freq_bcd_b1[13]_syn_31.o
+net (fo=6)                              0.770          6.736          net: u_vga/u_text/freq_bcd_b1[13]_syn_32,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_51.a
+LUT5                                    0.424    f     7.160       6  pin: u_vga/u_text/freq_bcd_b1[13]_syn_51.o
+net (fo=7)                              0.800          7.960          net: u_vga/u_text/freq_bcd_b1[13]_syn_52,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_55.a
+LUT5                                    0.424    f     8.384       7  pin: u_vga/u_text/freq_bcd_b1[13]_syn_55.o
+net (fo=8)                              0.825          9.209          net: u_vga/u_text/freq_bcd_b1[13]_syn_56,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_74.a
+LUT5                                    0.424    f     9.633       8  pin: u_vga/u_text/freq_bcd_b1[13]_syn_74.o
+net (fo=6)                              0.770         10.403          net: u_vga/u_text/freq_bcd_b1[13]_syn_75,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_102.a
+LUT5                                    0.424    f    10.827       9  pin: u_vga/u_text/freq_bcd_b1[13]_syn_102.o
+net (fo=6)                              0.770         11.597          net: u_vga/u_text/freq_bcd_b1[13]_syn_103,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[9]_syn_3.a
+LUT5                                    0.424    f    12.021      10  pin: u_vga/u_text/freq_bcd_b1[9]_syn_3.o
+net (fo=9)                              0.848         12.869          net: u_vga/u_text/freq_bcd_b1[9]_syn_4,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[5]_syn_3.a
+LUT5                                    0.424    f    13.293      11  pin: u_vga/u_text/freq_bcd_b1[5]_syn_3.o
+net (fo=8)                              0.825         14.118          net: u_vga/u_text/freq_bcd_b1[5]_syn_4,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[3]_syn_1.a
+LUT5                                    0.424    f    14.542      12  pin: u_vga/u_text/freq_bcd_b1[3]_syn_1.o
+net (fo=1)                              0.562         15.104          net: u_vga/u_text/freq_bcd_b1[3],  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_reg[3].d
+SEQ (reg)                               0.118    f    15.222          net: u_vga/u_text/f0[3],  ../../vga_text_p5.v(152)
+--------------------------------------------------------------------  ---------------
+Arrival                                               15.222               
+
+capture edge                           20.000    r    20.000               
+--------------------------------------------------------------------  ---------------
+setup                                  -0.116         19.884               
+clock uncertainty                       0.000         19.884               
+clock pessimism                         0.000         19.884               
+--------------------------------------------------------------------  ---------------
+Required                                              19.884               
+--------------------------------------------------------------------  ---------------
+Slack                                                  4.662               
+
+Slack               : 4.662ns
+Begin Point         : fq1_reg[15].clk (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+End Point           : u_vga/u_text/freq_bcd_reg[4].d (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+Check Type          : setup
+Process             : slow
+Budget              : 20.000ns { DeriveClock rising@20.000ns - DeriveClock rising@0.000ns }
+Data Path Delay     : 15.222ns (cell 5.320ns (34%), net 9.902ns (66%))
+Clock Skew          : 0.000ns
+Logic Level         : 12 ( LUT5=10  LUT4=1  LUT2=1 )
+Max Fanout          : 9
+Clock Uncertainty   : 0.000ns (sdc uncertainty: 0.000ns, default uncertainty: 0.000ns)
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+launch edge                             0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+SEQ (clk2q)                             0.146    r     0.146          pin: fq1_reg[15].q
+net (fo=1)                              0.000          0.146          net: fq1[15]_syn_3,  ../../adda_direct.v(387)
+                                                                      pin: fq1[15]_syn_1.i
+BUFKEEP                                 0.000    f     0.146          pin: fq1[15]_syn_1.o
+net (fo=1)                              0.000          0.146          net: fq1[15],  ../../adda_direct.v(387)
+                                                                      pin: fq1[15]_syn_2.i
+BUFKEEP                                 0.000    f     0.146          pin: fq1[15]_syn_2.o
+net (fo=5)                              0.737          0.883          net: u_vga/u_text/freq_centi[15],  ../../vga_text_p5.v(34)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_1.a
+LUT5                                    0.424    f     1.307       1  pin: u_vga/u_text/freq_bcd_b1[13]_syn_1.o
+net (fo=6)                              0.770          2.077          net: u_vga/u_text/freq_bcd_b1[13]_syn_2,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_9.a
+LUT5                                    0.424    f     2.501       2  pin: u_vga/u_text/freq_bcd_b1[13]_syn_9.o
+net (fo=7)                              0.800          3.301          net: u_vga/u_text/freq_bcd_b1[13]_syn_10,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_13.b
+LUT5                                    0.424    f     3.725       3  pin: u_vga/u_text/freq_bcd_b1[13]_syn_13.o
+net (fo=8)                              0.825          4.550          net: u_vga/u_text/freq_bcd_b1[13]_syn_14,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_27.a
+LUT4                                    0.408    f     4.958       4  pin: u_vga/u_text/freq_bcd_b1[13]_syn_27.o
+net (fo=2)                              0.600          5.558          net: u_vga/u_text/freq_bcd_b1[13]_syn_28,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_31.a
+LUT2                                    0.408    f     5.966       5  pin: u_vga/u_text/freq_bcd_b1[13]_syn_31.o
+net (fo=6)                              0.770          6.736          net: u_vga/u_text/freq_bcd_b1[13]_syn_32,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_51.a
+LUT5                                    0.424    f     7.160       6  pin: u_vga/u_text/freq_bcd_b1[13]_syn_51.o
+net (fo=7)                              0.800          7.960          net: u_vga/u_text/freq_bcd_b1[13]_syn_52,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_55.a
+LUT5                                    0.424    f     8.384       7  pin: u_vga/u_text/freq_bcd_b1[13]_syn_55.o
+net (fo=8)                              0.825          9.209          net: u_vga/u_text/freq_bcd_b1[13]_syn_56,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_74.a
+LUT5                                    0.424    f     9.633       8  pin: u_vga/u_text/freq_bcd_b1[13]_syn_74.o
+net (fo=6)                              0.770         10.403          net: u_vga/u_text/freq_bcd_b1[13]_syn_75,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_102.a
+LUT5                                    0.424    f    10.827       9  pin: u_vga/u_text/freq_bcd_b1[13]_syn_102.o
+net (fo=6)                              0.770         11.597          net: u_vga/u_text/freq_bcd_b1[13]_syn_103,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[9]_syn_3.a
+LUT5                                    0.424    f    12.021      10  pin: u_vga/u_text/freq_bcd_b1[9]_syn_3.o
+net (fo=9)                              0.848         12.869          net: u_vga/u_text/freq_bcd_b1[9]_syn_4,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[5]_syn_3.a
+LUT5                                    0.424    f    13.293      11  pin: u_vga/u_text/freq_bcd_b1[5]_syn_3.o
+net (fo=8)                              0.825         14.118          net: u_vga/u_text/freq_bcd_b1[5]_syn_4,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b3_n40_syn_1.a
+LUT5                                    0.424    f    14.542      12  pin: u_vga/u_text/freq_bcd_b3_n40_syn_1.o
+net (fo=1)                              0.562         15.104          net: u_vga/u_text/freq_bcd_b3_n40,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_reg[4].d
+SEQ (reg)                               0.118    f    15.222          net: u_vga/u_text/f1[0],  ../../vga_text_p5.v(152)
+--------------------------------------------------------------------  ---------------
+Arrival                                               15.222               
+
+capture edge                           20.000    r    20.000               
+--------------------------------------------------------------------  ---------------
+setup                                  -0.116         19.884               
+clock uncertainty                       0.000         19.884               
+clock pessimism                         0.000         19.884               
+--------------------------------------------------------------------  ---------------
+Required                                              19.884               
+--------------------------------------------------------------------  ---------------
+Slack                                                  4.662               
+
+Slack               : 4.662ns
+Begin Point         : fq1_reg[15].clk (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+End Point           : u_vga/u_text/freq_bcd_reg[5].d (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+Check Type          : setup
+Process             : slow
+Budget              : 20.000ns { DeriveClock rising@20.000ns - DeriveClock rising@0.000ns }
+Data Path Delay     : 15.222ns (cell 5.320ns (34%), net 9.902ns (66%))
+Clock Skew          : 0.000ns
+Logic Level         : 12 ( LUT5=10  LUT4=1  LUT2=1 )
+Max Fanout          : 9
+Clock Uncertainty   : 0.000ns (sdc uncertainty: 0.000ns, default uncertainty: 0.000ns)
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+launch edge                             0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+SEQ (clk2q)                             0.146    r     0.146          pin: fq1_reg[15].q
+net (fo=1)                              0.000          0.146          net: fq1[15]_syn_3,  ../../adda_direct.v(387)
+                                                                      pin: fq1[15]_syn_1.i
+BUFKEEP                                 0.000    f     0.146          pin: fq1[15]_syn_1.o
+net (fo=1)                              0.000          0.146          net: fq1[15],  ../../adda_direct.v(387)
+                                                                      pin: fq1[15]_syn_2.i
+BUFKEEP                                 0.000    f     0.146          pin: fq1[15]_syn_2.o
+net (fo=5)                              0.737          0.883          net: u_vga/u_text/freq_centi[15],  ../../vga_text_p5.v(34)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_1.a
+LUT5                                    0.424    f     1.307       1  pin: u_vga/u_text/freq_bcd_b1[13]_syn_1.o
+net (fo=6)                              0.770          2.077          net: u_vga/u_text/freq_bcd_b1[13]_syn_2,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_9.a
+LUT5                                    0.424    f     2.501       2  pin: u_vga/u_text/freq_bcd_b1[13]_syn_9.o
+net (fo=7)                              0.800          3.301          net: u_vga/u_text/freq_bcd_b1[13]_syn_10,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_13.b
+LUT5                                    0.424    f     3.725       3  pin: u_vga/u_text/freq_bcd_b1[13]_syn_13.o
+net (fo=8)                              0.825          4.550          net: u_vga/u_text/freq_bcd_b1[13]_syn_14,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_27.a
+LUT4                                    0.408    f     4.958       4  pin: u_vga/u_text/freq_bcd_b1[13]_syn_27.o
+net (fo=2)                              0.600          5.558          net: u_vga/u_text/freq_bcd_b1[13]_syn_28,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_31.a
+LUT2                                    0.408    f     5.966       5  pin: u_vga/u_text/freq_bcd_b1[13]_syn_31.o
+net (fo=6)                              0.770          6.736          net: u_vga/u_text/freq_bcd_b1[13]_syn_32,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_51.a
+LUT5                                    0.424    f     7.160       6  pin: u_vga/u_text/freq_bcd_b1[13]_syn_51.o
+net (fo=7)                              0.800          7.960          net: u_vga/u_text/freq_bcd_b1[13]_syn_52,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_55.a
+LUT5                                    0.424    f     8.384       7  pin: u_vga/u_text/freq_bcd_b1[13]_syn_55.o
+net (fo=8)                              0.825          9.209          net: u_vga/u_text/freq_bcd_b1[13]_syn_56,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_74.a
+LUT5                                    0.424    f     9.633       8  pin: u_vga/u_text/freq_bcd_b1[13]_syn_74.o
+net (fo=6)                              0.770         10.403          net: u_vga/u_text/freq_bcd_b1[13]_syn_75,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_102.a
+LUT5                                    0.424    f    10.827       9  pin: u_vga/u_text/freq_bcd_b1[13]_syn_102.o
+net (fo=6)                              0.770         11.597          net: u_vga/u_text/freq_bcd_b1[13]_syn_103,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[9]_syn_3.a
+LUT5                                    0.424    f    12.021      10  pin: u_vga/u_text/freq_bcd_b1[9]_syn_3.o
+net (fo=9)                              0.848         12.869          net: u_vga/u_text/freq_bcd_b1[9]_syn_4,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[5]_syn_3.a
+LUT5                                    0.424    f    13.293      11  pin: u_vga/u_text/freq_bcd_b1[5]_syn_3.o
+net (fo=8)                              0.825         14.118          net: u_vga/u_text/freq_bcd_b1[5]_syn_4,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[5]_syn_9.a
+LUT5                                    0.424    f    14.542      12  pin: u_vga/u_text/freq_bcd_b1[5]_syn_9.o
+net (fo=1)                              0.562         15.104          net: u_vga/u_text/freq_bcd_b1[5],  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_reg[5].d
+SEQ (reg)                               0.118    f    15.222          net: u_vga/u_text/f1[1],  ../../vga_text_p5.v(152)
+--------------------------------------------------------------------  ---------------
+Arrival                                               15.222               
+
+capture edge                           20.000    r    20.000               
+--------------------------------------------------------------------  ---------------
+setup                                  -0.116         19.884               
+clock uncertainty                       0.000         19.884               
+clock pessimism                         0.000         19.884               
+--------------------------------------------------------------------  ---------------
+Required                                              19.884               
+--------------------------------------------------------------------  ---------------
+Slack                                                  4.662               
+
+Slack               : 4.662ns
+Begin Point         : fq1_reg[15].clk (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+End Point           : u_vga/u_text/freq_bcd_reg[6].d (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+Check Type          : setup
+Process             : slow
+Budget              : 20.000ns { DeriveClock rising@20.000ns - DeriveClock rising@0.000ns }
+Data Path Delay     : 15.222ns (cell 5.320ns (34%), net 9.902ns (66%))
+Clock Skew          : 0.000ns
+Logic Level         : 12 ( LUT5=10  LUT4=1  LUT2=1 )
+Max Fanout          : 9
+Clock Uncertainty   : 0.000ns (sdc uncertainty: 0.000ns, default uncertainty: 0.000ns)
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+launch edge                             0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+SEQ (clk2q)                             0.146    r     0.146          pin: fq1_reg[15].q
+net (fo=1)                              0.000          0.146          net: fq1[15]_syn_3,  ../../adda_direct.v(387)
+                                                                      pin: fq1[15]_syn_1.i
+BUFKEEP                                 0.000    f     0.146          pin: fq1[15]_syn_1.o
+net (fo=1)                              0.000          0.146          net: fq1[15],  ../../adda_direct.v(387)
+                                                                      pin: fq1[15]_syn_2.i
+BUFKEEP                                 0.000    f     0.146          pin: fq1[15]_syn_2.o
+net (fo=5)                              0.737          0.883          net: u_vga/u_text/freq_centi[15],  ../../vga_text_p5.v(34)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_1.a
+LUT5                                    0.424    f     1.307       1  pin: u_vga/u_text/freq_bcd_b1[13]_syn_1.o
+net (fo=6)                              0.770          2.077          net: u_vga/u_text/freq_bcd_b1[13]_syn_2,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_9.a
+LUT5                                    0.424    f     2.501       2  pin: u_vga/u_text/freq_bcd_b1[13]_syn_9.o
+net (fo=7)                              0.800          3.301          net: u_vga/u_text/freq_bcd_b1[13]_syn_10,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_13.b
+LUT5                                    0.424    f     3.725       3  pin: u_vga/u_text/freq_bcd_b1[13]_syn_13.o
+net (fo=8)                              0.825          4.550          net: u_vga/u_text/freq_bcd_b1[13]_syn_14,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_27.a
+LUT4                                    0.408    f     4.958       4  pin: u_vga/u_text/freq_bcd_b1[13]_syn_27.o
+net (fo=2)                              0.600          5.558          net: u_vga/u_text/freq_bcd_b1[13]_syn_28,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_31.a
+LUT2                                    0.408    f     5.966       5  pin: u_vga/u_text/freq_bcd_b1[13]_syn_31.o
+net (fo=6)                              0.770          6.736          net: u_vga/u_text/freq_bcd_b1[13]_syn_32,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_51.a
+LUT5                                    0.424    f     7.160       6  pin: u_vga/u_text/freq_bcd_b1[13]_syn_51.o
+net (fo=7)                              0.800          7.960          net: u_vga/u_text/freq_bcd_b1[13]_syn_52,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_55.a
+LUT5                                    0.424    f     8.384       7  pin: u_vga/u_text/freq_bcd_b1[13]_syn_55.o
+net (fo=8)                              0.825          9.209          net: u_vga/u_text/freq_bcd_b1[13]_syn_56,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_74.a
+LUT5                                    0.424    f     9.633       8  pin: u_vga/u_text/freq_bcd_b1[13]_syn_74.o
+net (fo=6)                              0.770         10.403          net: u_vga/u_text/freq_bcd_b1[13]_syn_75,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_102.a
+LUT5                                    0.424    f    10.827       9  pin: u_vga/u_text/freq_bcd_b1[13]_syn_102.o
+net (fo=6)                              0.770         11.597          net: u_vga/u_text/freq_bcd_b1[13]_syn_103,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[9]_syn_3.a
+LUT5                                    0.424    f    12.021      10  pin: u_vga/u_text/freq_bcd_b1[9]_syn_3.o
+net (fo=9)                              0.848         12.869          net: u_vga/u_text/freq_bcd_b1[9]_syn_4,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[5]_syn_3.a
+LUT5                                    0.424    f    13.293      11  pin: u_vga/u_text/freq_bcd_b1[5]_syn_3.o
+net (fo=8)                              0.825         14.118          net: u_vga/u_text/freq_bcd_b1[5]_syn_4,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[6]_syn_1.a
+LUT5                                    0.424    f    14.542      12  pin: u_vga/u_text/freq_bcd_b1[6]_syn_1.o
+net (fo=1)                              0.562         15.104          net: u_vga/u_text/freq_bcd_b1[6],  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_reg[6].d
+SEQ (reg)                               0.118    f    15.222          net: u_vga/u_text/f1[2],  ../../vga_text_p5.v(152)
+--------------------------------------------------------------------  ---------------
+Arrival                                               15.222               
+
+capture edge                           20.000    r    20.000               
+--------------------------------------------------------------------  ---------------
+setup                                  -0.116         19.884               
+clock uncertainty                       0.000         19.884               
+clock pessimism                         0.000         19.884               
+--------------------------------------------------------------------  ---------------
+Required                                              19.884               
+--------------------------------------------------------------------  ---------------
+Slack                                                  4.662               
+
+Slack               : 4.662ns
+Begin Point         : fq1_reg[15].clk (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+End Point           : u_vga/u_text/freq_bcd_reg[7].d (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+Check Type          : setup
+Process             : slow
+Budget              : 20.000ns { DeriveClock rising@20.000ns - DeriveClock rising@0.000ns }
+Data Path Delay     : 15.222ns (cell 5.320ns (34%), net 9.902ns (66%))
+Clock Skew          : 0.000ns
+Logic Level         : 12 ( LUT5=10  LUT4=1  LUT2=1 )
+Max Fanout          : 9
+Clock Uncertainty   : 0.000ns (sdc uncertainty: 0.000ns, default uncertainty: 0.000ns)
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+launch edge                             0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+SEQ (clk2q)                             0.146    r     0.146          pin: fq1_reg[15].q
+net (fo=1)                              0.000          0.146          net: fq1[15]_syn_3,  ../../adda_direct.v(387)
+                                                                      pin: fq1[15]_syn_1.i
+BUFKEEP                                 0.000    f     0.146          pin: fq1[15]_syn_1.o
+net (fo=1)                              0.000          0.146          net: fq1[15],  ../../adda_direct.v(387)
+                                                                      pin: fq1[15]_syn_2.i
+BUFKEEP                                 0.000    f     0.146          pin: fq1[15]_syn_2.o
+net (fo=5)                              0.737          0.883          net: u_vga/u_text/freq_centi[15],  ../../vga_text_p5.v(34)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_1.a
+LUT5                                    0.424    f     1.307       1  pin: u_vga/u_text/freq_bcd_b1[13]_syn_1.o
+net (fo=6)                              0.770          2.077          net: u_vga/u_text/freq_bcd_b1[13]_syn_2,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_9.a
+LUT5                                    0.424    f     2.501       2  pin: u_vga/u_text/freq_bcd_b1[13]_syn_9.o
+net (fo=7)                              0.800          3.301          net: u_vga/u_text/freq_bcd_b1[13]_syn_10,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_13.b
+LUT5                                    0.424    f     3.725       3  pin: u_vga/u_text/freq_bcd_b1[13]_syn_13.o
+net (fo=8)                              0.825          4.550          net: u_vga/u_text/freq_bcd_b1[13]_syn_14,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_27.a
+LUT4                                    0.408    f     4.958       4  pin: u_vga/u_text/freq_bcd_b1[13]_syn_27.o
+net (fo=2)                              0.600          5.558          net: u_vga/u_text/freq_bcd_b1[13]_syn_28,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_31.a
+LUT2                                    0.408    f     5.966       5  pin: u_vga/u_text/freq_bcd_b1[13]_syn_31.o
+net (fo=6)                              0.770          6.736          net: u_vga/u_text/freq_bcd_b1[13]_syn_32,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_51.a
+LUT5                                    0.424    f     7.160       6  pin: u_vga/u_text/freq_bcd_b1[13]_syn_51.o
+net (fo=7)                              0.800          7.960          net: u_vga/u_text/freq_bcd_b1[13]_syn_52,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_55.a
+LUT5                                    0.424    f     8.384       7  pin: u_vga/u_text/freq_bcd_b1[13]_syn_55.o
+net (fo=8)                              0.825          9.209          net: u_vga/u_text/freq_bcd_b1[13]_syn_56,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_74.a
+LUT5                                    0.424    f     9.633       8  pin: u_vga/u_text/freq_bcd_b1[13]_syn_74.o
+net (fo=6)                              0.770         10.403          net: u_vga/u_text/freq_bcd_b1[13]_syn_75,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_102.a
+LUT5                                    0.424    f    10.827       9  pin: u_vga/u_text/freq_bcd_b1[13]_syn_102.o
+net (fo=6)                              0.770         11.597          net: u_vga/u_text/freq_bcd_b1[13]_syn_103,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[9]_syn_3.a
+LUT5                                    0.424    f    12.021      10  pin: u_vga/u_text/freq_bcd_b1[9]_syn_3.o
+net (fo=9)                              0.848         12.869          net: u_vga/u_text/freq_bcd_b1[9]_syn_4,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[5]_syn_3.a
+LUT5                                    0.424    f    13.293      11  pin: u_vga/u_text/freq_bcd_b1[5]_syn_3.o
+net (fo=8)                              0.825         14.118          net: u_vga/u_text/freq_bcd_b1[5]_syn_4,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[7]_syn_1.a
+LUT5                                    0.424    f    14.542      12  pin: u_vga/u_text/freq_bcd_b1[7]_syn_1.o
+net (fo=1)                              0.562         15.104          net: u_vga/u_text/freq_bcd_b1[7],  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_reg[7].d
+SEQ (reg)                               0.118    f    15.222          net: u_vga/u_text/f1[3],  ../../vga_text_p5.v(152)
+--------------------------------------------------------------------  ---------------
+Arrival                                               15.222               
+
+capture edge                           20.000    r    20.000               
+--------------------------------------------------------------------  ---------------
+setup                                  -0.116         19.884               
+clock uncertainty                       0.000         19.884               
+clock pessimism                         0.000         19.884               
+--------------------------------------------------------------------  ---------------
+Required                                              19.884               
+--------------------------------------------------------------------  ---------------
+Slack                                                  4.662               
+
+Slack               : 4.662ns
+Begin Point         : fq1_reg[15].clk (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+End Point           : u_vga/u_text/freq_bcd_reg[8].d (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+Check Type          : setup
+Process             : slow
+Budget              : 20.000ns { DeriveClock rising@20.000ns - DeriveClock rising@0.000ns }
+Data Path Delay     : 15.222ns (cell 5.320ns (34%), net 9.902ns (66%))
+Clock Skew          : 0.000ns
+Logic Level         : 12 ( LUT5=10  LUT4=1  LUT2=1 )
+Max Fanout          : 9
+Clock Uncertainty   : 0.000ns (sdc uncertainty: 0.000ns, default uncertainty: 0.000ns)
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+launch edge                             0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+SEQ (clk2q)                             0.146    r     0.146          pin: fq1_reg[15].q
+net (fo=1)                              0.000          0.146          net: fq1[15]_syn_3,  ../../adda_direct.v(387)
+                                                                      pin: fq1[15]_syn_1.i
+BUFKEEP                                 0.000    f     0.146          pin: fq1[15]_syn_1.o
+net (fo=1)                              0.000          0.146          net: fq1[15],  ../../adda_direct.v(387)
+                                                                      pin: fq1[15]_syn_2.i
+BUFKEEP                                 0.000    f     0.146          pin: fq1[15]_syn_2.o
+net (fo=5)                              0.737          0.883          net: u_vga/u_text/freq_centi[15],  ../../vga_text_p5.v(34)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_1.a
+LUT5                                    0.424    f     1.307       1  pin: u_vga/u_text/freq_bcd_b1[13]_syn_1.o
+net (fo=6)                              0.770          2.077          net: u_vga/u_text/freq_bcd_b1[13]_syn_2,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_9.a
+LUT5                                    0.424    f     2.501       2  pin: u_vga/u_text/freq_bcd_b1[13]_syn_9.o
+net (fo=7)                              0.800          3.301          net: u_vga/u_text/freq_bcd_b1[13]_syn_10,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_13.b
+LUT5                                    0.424    f     3.725       3  pin: u_vga/u_text/freq_bcd_b1[13]_syn_13.o
+net (fo=8)                              0.825          4.550          net: u_vga/u_text/freq_bcd_b1[13]_syn_14,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_27.a
+LUT4                                    0.408    f     4.958       4  pin: u_vga/u_text/freq_bcd_b1[13]_syn_27.o
+net (fo=2)                              0.600          5.558          net: u_vga/u_text/freq_bcd_b1[13]_syn_28,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_31.a
+LUT2                                    0.408    f     5.966       5  pin: u_vga/u_text/freq_bcd_b1[13]_syn_31.o
+net (fo=6)                              0.770          6.736          net: u_vga/u_text/freq_bcd_b1[13]_syn_32,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_51.a
+LUT5                                    0.424    f     7.160       6  pin: u_vga/u_text/freq_bcd_b1[13]_syn_51.o
+net (fo=7)                              0.800          7.960          net: u_vga/u_text/freq_bcd_b1[13]_syn_52,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_55.a
+LUT5                                    0.424    f     8.384       7  pin: u_vga/u_text/freq_bcd_b1[13]_syn_55.o
+net (fo=8)                              0.825          9.209          net: u_vga/u_text/freq_bcd_b1[13]_syn_56,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_74.a
+LUT5                                    0.424    f     9.633       8  pin: u_vga/u_text/freq_bcd_b1[13]_syn_74.o
+net (fo=6)                              0.770         10.403          net: u_vga/u_text/freq_bcd_b1[13]_syn_75,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[13]_syn_102.a
+LUT5                                    0.424    f    10.827       9  pin: u_vga/u_text/freq_bcd_b1[13]_syn_102.o
+net (fo=6)                              0.770         11.597          net: u_vga/u_text/freq_bcd_b1[13]_syn_103,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[9]_syn_3.a
+LUT5                                    0.424    f    12.021      10  pin: u_vga/u_text/freq_bcd_b1[9]_syn_3.o
+net (fo=9)                              0.848         12.869          net: u_vga/u_text/freq_bcd_b1[9]_syn_4,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b1[5]_syn_3.a
+LUT5                                    0.424    f    13.293      11  pin: u_vga/u_text/freq_bcd_b1[5]_syn_3.o
+net (fo=8)                              0.825         14.118          net: u_vga/u_text/freq_bcd_b1[5]_syn_4,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_b3_n35_syn_1.a
+LUT5                                    0.424    f    14.542      12  pin: u_vga/u_text/freq_bcd_b3_n35_syn_1.o
+net (fo=1)                              0.562         15.104          net: u_vga/u_text/freq_bcd_b3_n35,  NOFILE(0)
+                                                                      pin: u_vga/u_text/freq_bcd_reg[8].d
+SEQ (reg)                               0.118    f    15.222          net: u_vga/u_text/f2[0],  ../../vga_text_p5.v(151)
+--------------------------------------------------------------------  ---------------
+Arrival                                               15.222               
+
+capture edge                           20.000    r    20.000               
+--------------------------------------------------------------------  ---------------
+setup                                  -0.116         19.884               
+clock uncertainty                       0.000         19.884               
+clock pessimism                         0.000         19.884               
+--------------------------------------------------------------------  ---------------
+Required                                              19.884               
+--------------------------------------------------------------------  ---------------
+Slack                                                  4.662               
+
+
+Period Check
+----------------------------------------------------------------------------------------------------
+    Type       Setting(ns)      Required(ns)         Slack(ns)   Point
+--------------------------------------------------------------------------------
+    ERAM            20.000             3.414            16.586   u_meas/mult3_syn_1.clk
+    ERAM            20.000             3.414            16.586   u_meas/mult0_syn_3.clk
+    ERAM            20.000             3.414            16.586   u_meas/mult1_syn_3.clk
+
+Min Paths
+----------------------------------------------------------------------------------------------------
+Slack               : 0.471ns
+Begin Point         : u_nco/rd_addr_sum_r_reg[8]_syn_4.clk (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+End Point           : u_dpram/ramread0_syn_6.addrb[12] (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+Check Type          : hold
+Process             : fast
+Budget              : 0.000ns { DeriveClock rising@0.000ns - DeriveClock rising@0.000ns }
+Data Path Delay     : 0.671ns (cell 0.109ns (16%), net 0.562ns (84%))
+Clock Skew          : 0.000ns
+Logic Level         : 1 ( EMB=1 )
+Max Fanout          : 1
+Clock Uncertainty   : 0.000ns (sdc uncertainty: 0.000ns, default uncertainty: 0.000ns)
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+launch edge                             0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+ADDER (clk2q)                           0.109    f     0.109          pin: u_nco/rd_addr_sum_r_reg[8]_syn_4.q[1]
+net (fo=1)                              0.562          0.671          net: u_dpram/rd_addr[8],  ../../dpram.v(9)
+                                                                      pin: u_dpram/ramread0_syn_6.addrb[12]
+EMB (reg)                               0.000    f     0.671       1       
+--------------------------------------------------------------------  ---------------
+Arrival                                                0.671               
+
+capture edge                            0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+hold                                    0.200          0.200               
+clock uncertainty                       0.000          0.200               
+clock pessimism                         0.000          0.200               
+--------------------------------------------------------------------  ---------------
+Required                                               0.200               
+--------------------------------------------------------------------  ---------------
+Slack                                                  0.471               
+
+Slack               : 0.471ns
+Begin Point         : wr_data_reg_reg[3].clk (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+End Point           : u_dpram/ramread0_syn_6.dia[3] (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+Check Type          : hold
+Process             : fast
+Budget              : 0.000ns { DeriveClock rising@0.000ns - DeriveClock rising@0.000ns }
+Data Path Delay     : 0.671ns (cell 0.109ns (16%), net 0.562ns (84%))
+Clock Skew          : 0.000ns
+Logic Level         : 1 ( EMB=1 )
+Max Fanout          : 1
+Clock Uncertainty   : 0.000ns (sdc uncertainty: 0.000ns, default uncertainty: 0.000ns)
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+launch edge                             0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+SEQ (clk2q)                             0.109    f     0.109          pin: wr_data_reg_reg[3].q
+net (fo=1)                              0.562          0.671          net: wr_data_reg[3],  ../../adda_direct.v(189)
+                                                                      pin: u_dpram/ramread0_syn_6.dia[3]
+EMB (reg)                               0.000    f     0.671       1       
+--------------------------------------------------------------------  ---------------
+Arrival                                                0.671               
+
+capture edge                            0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+hold                                    0.200          0.200               
+clock uncertainty                       0.000          0.200               
+clock pessimism                         0.000          0.200               
+--------------------------------------------------------------------  ---------------
+Required                                               0.200               
+--------------------------------------------------------------------  ---------------
+Slack                                                  0.471               
+
+Slack               : 0.471ns
+Begin Point         : u_cap/rd_ot_addr_reg[8].clk (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+End Point           : u_dpram_ot/ramread0_syn_7.addrb[11] (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+Check Type          : hold
+Process             : fast
+Budget              : 0.000ns { DeriveClock rising@0.000ns - DeriveClock rising@0.000ns }
+Data Path Delay     : 0.671ns (cell 0.109ns (16%), net 0.562ns (84%))
+Clock Skew          : 0.000ns
+Logic Level         : 1 ( EMB=1 )
+Max Fanout          : 1
+Clock Uncertainty   : 0.000ns (sdc uncertainty: 0.000ns, default uncertainty: 0.000ns)
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+launch edge                             0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+SEQ (clk2q)                             0.109    f     0.109          pin: u_cap/rd_ot_addr_reg[8].q
+net (fo=1)                              0.562          0.671          net: u_cap/rd_ot_addr[8],  ../../wave_capture.v(38)
+                                                                      pin: u_dpram_ot/ramread0_syn_7.addrb[11]
+EMB (reg)                               0.000    f     0.671       1       
+--------------------------------------------------------------------  ---------------
+Arrival                                                0.671               
+
+capture edge                            0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+hold                                    0.200          0.200               
+clock uncertainty                       0.000          0.200               
+clock pessimism                         0.000          0.200               
+--------------------------------------------------------------------  ---------------
+Required                                               0.200               
+--------------------------------------------------------------------  ---------------
+Slack                                                  0.471               
+
+Slack               : 0.471ns
+Begin Point         : u_nco/phase_addr_r_reg[6].clk (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+End Point           : u_dpram_xy/ramread0_syn_7.addrb[9] (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+Check Type          : hold
+Process             : fast
+Budget              : 0.000ns { DeriveClock rising@0.000ns - DeriveClock rising@0.000ns }
+Data Path Delay     : 0.671ns (cell 0.109ns (16%), net 0.562ns (84%))
+Clock Skew          : 0.000ns
+Logic Level         : 1 ( EMB=1 )
+Max Fanout          : 1
+Clock Uncertainty   : 0.000ns (sdc uncertainty: 0.000ns, default uncertainty: 0.000ns)
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+launch edge                             0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+SEQ (clk2q)                             0.109    f     0.109          pin: u_nco/phase_addr_r_reg[6].q
+net (fo=1)                              0.562          0.671          net: phase_addr[6],  ../../adda_direct.v(145)
+                                                                      pin: u_dpram_xy/ramread0_syn_7.addrb[9]
+EMB (reg)                               0.000    f     0.671       1       
+--------------------------------------------------------------------  ---------------
+Arrival                                                0.671               
+
+capture edge                            0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+hold                                    0.200          0.200               
+clock uncertainty                       0.000          0.200               
+clock pessimism                         0.000          0.200               
+--------------------------------------------------------------------  ---------------
+Required                                               0.200               
+--------------------------------------------------------------------  ---------------
+Slack                                                  0.471               
+
+Slack               : 0.471ns
+Begin Point         : u_cap/addr_w_reg[8].clk (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+End Point           : u_wram/ramread0_syn_8.addra[12] (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+Check Type          : hold
+Process             : fast
+Budget              : 0.000ns { DeriveClock rising@0.000ns - DeriveClock rising@0.000ns }
+Data Path Delay     : 0.671ns (cell 0.109ns (16%), net 0.562ns (84%))
+Clock Skew          : 0.000ns
+Logic Level         : 1 ( EMB=1 )
+Max Fanout          : 1
+Clock Uncertainty   : 0.000ns (sdc uncertainty: 0.000ns, default uncertainty: 0.000ns)
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+launch edge                             0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+SEQ (clk2q)                             0.109    f     0.109          pin: u_cap/addr_w_reg[8].q
+net (fo=1)                              0.562          0.671          net: u_cap/addr_w[8],  ../../wave_capture.v(42)
+                                                                      pin: u_wram/ramread0_syn_8.addra[12]
+EMB (reg)                               0.000    f     0.671       1       
+--------------------------------------------------------------------  ---------------
+Arrival                                                0.671               
+
+capture edge                            0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+hold                                    0.200          0.200               
+clock uncertainty                       0.000          0.200               
+clock pessimism                         0.000          0.200               
+--------------------------------------------------------------------  ---------------
+Required                                               0.200               
+--------------------------------------------------------------------  ---------------
+Slack                                                  0.471               
+
+Slack               : 0.471ns
+Begin Point         : u_cap/we_reg.clk (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+End Point           : u_wram/ramread0_syn_8.cea (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+Check Type          : hold
+Process             : fast
+Budget              : 0.000ns { DeriveClock rising@0.000ns - DeriveClock rising@0.000ns }
+Data Path Delay     : 0.671ns (cell 0.109ns (16%), net 0.562ns (84%))
+Clock Skew          : 0.000ns
+Logic Level         : 0
+Max Fanout          : 1
+Clock Uncertainty   : 0.000ns (sdc uncertainty: 0.000ns, default uncertainty: 0.000ns)
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+launch edge                             0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+SEQ (clk2q)                             0.109    f     0.109          pin: u_cap/we_reg.q
+net (fo=1)                              0.562          0.671          net: u_wram/we,  ../../wave_ram.v(19)
+                                                                      pin: u_wram/ramread0_syn_8.cea
+EMB (reg)                               0.000    f     0.671               
+--------------------------------------------------------------------  ---------------
+Arrival                                                0.671               
+
+capture edge                            0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+hold                                    0.200          0.200               
+clock uncertainty                       0.000          0.200               
+clock pessimism                         0.000          0.200               
+--------------------------------------------------------------------  ---------------
+Required                                               0.200               
+--------------------------------------------------------------------  ---------------
+Slack                                                  0.471               
+
+Slack               : 0.471ns
+Begin Point         : u_cap/din_reg[8]_syn_4.clk (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+End Point           : u_wram/ramread0_syn_8.dia[8] (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+Check Type          : hold
+Process             : fast
+Budget              : 0.000ns { DeriveClock rising@0.000ns - DeriveClock rising@0.000ns }
+Data Path Delay     : 0.671ns (cell 0.109ns (16%), net 0.562ns (84%))
+Clock Skew          : 0.000ns
+Logic Level         : 1 ( EMB=1 )
+Max Fanout          : 1
+Clock Uncertainty   : 0.000ns (sdc uncertainty: 0.000ns, default uncertainty: 0.000ns)
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+launch edge                             0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+ADDER (clk2q)                           0.109    f     0.109          pin: u_cap/din_reg[8]_syn_4.q[1]
+net (fo=1)                              0.562          0.671          net: u_cap/din[8],  ../../wave_capture.v(43)
+                                                                      pin: u_wram/ramread0_syn_8.dia[8]
+EMB (reg)                               0.000    f     0.671       1       
+--------------------------------------------------------------------  ---------------
+Arrival                                                0.671               
+
+capture edge                            0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+hold                                    0.200          0.200               
+clock uncertainty                       0.000          0.200               
+clock pessimism                         0.000          0.200               
+--------------------------------------------------------------------  ---------------
+Required                                               0.200               
+--------------------------------------------------------------------  ---------------
+Slack                                                  0.471               
+
+Slack               : 0.471ns
+Begin Point         : u_cap/din_reg[20]_syn_4.clk (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+End Point           : u_wram/ramread0_syn_8.dib[8] (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+Check Type          : hold
+Process             : fast
+Budget              : 0.000ns { DeriveClock rising@0.000ns - DeriveClock rising@0.000ns }
+Data Path Delay     : 0.671ns (cell 0.109ns (16%), net 0.562ns (84%))
+Clock Skew          : 0.000ns
+Logic Level         : 1 ( EMB=1 )
+Max Fanout          : 1
+Clock Uncertainty   : 0.000ns (sdc uncertainty: 0.000ns, default uncertainty: 0.000ns)
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+launch edge                             0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+ADDER (clk2q)                           0.109    f     0.109          pin: u_cap/din_reg[20]_syn_4.q[1]
+net (fo=1)                              0.562          0.671          net: u_cap/din[20],  ../../wave_capture.v(43)
+                                                                      pin: u_wram/ramread0_syn_8.dib[8]
+EMB (reg)                               0.000    f     0.671       1       
+--------------------------------------------------------------------  ---------------
+Arrival                                                0.671               
+
+capture edge                            0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+hold                                    0.200          0.200               
+clock uncertainty                       0.000          0.200               
+clock pessimism                         0.000          0.200               
+--------------------------------------------------------------------  ---------------
+Required                                               0.200               
+--------------------------------------------------------------------  ---------------
+Slack                                                  0.471               
+
+Slack               : 0.509ns
+Begin Point         : u_cap/pos_reg[16].clk (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+End Point           : u_dpram_in/ramread0_syn_7.addrb[11] (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+Check Type          : hold
+Process             : fast
+Budget              : 0.000ns { DeriveClock rising@0.000ns - DeriveClock rising@0.000ns }
+Data Path Delay     : 0.709ns (cell 0.109ns (15%), net 0.600ns (85%))
+Clock Skew          : 0.000ns
+Logic Level         : 1 ( EMB=1 )
+Max Fanout          : 2
+Clock Uncertainty   : 0.000ns (sdc uncertainty: 0.000ns, default uncertainty: 0.000ns)
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+launch edge                             0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+SEQ (clk2q)                             0.109    f     0.109          pin: u_cap/pos_reg[16].q
+net (fo=2)                              0.600          0.709          net: u_cap/pos[16],  ../../wave_capture.v(70)
+                                                                      pin: u_dpram_in/ramread0_syn_7.addrb[11]
+EMB (reg)                               0.000    f     0.709       1       
+--------------------------------------------------------------------  ---------------
+Arrival                                                0.709               
+
+capture edge                            0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+hold                                    0.200          0.200               
+clock uncertainty                       0.000          0.200               
+clock pessimism                         0.000          0.200               
+--------------------------------------------------------------------  ---------------
+Required                                               0.200               
+--------------------------------------------------------------------  ---------------
+Slack                                                  0.509               
+
+Slack               : 0.560ns
+Begin Point         : wr_data_reg_reg[4].clk (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+End Point           : u_dpram_in/ramread0_syn_7.dia[0] (rising edge triggered by clock DeriveClock  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })
+Check Type          : hold
+Process             : fast
+Budget              : 0.000ns { DeriveClock rising@0.000ns - DeriveClock rising@0.000ns }
+Data Path Delay     : 0.760ns (cell 0.109ns (14%), net 0.651ns (86%))
+Clock Skew          : 0.000ns
+Logic Level         : 1 ( EMB=1 )
+Max Fanout          : 3
+Clock Uncertainty   : 0.000ns (sdc uncertainty: 0.000ns, default uncertainty: 0.000ns)
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+launch edge                             0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+SEQ (clk2q)                             0.109    f     0.109          pin: wr_data_reg_reg[4].q
+net (fo=3)                              0.651          0.760          net: wr_data_reg[4],  ../../adda_direct.v(189)
+                                                                      pin: u_dpram_in/ramread0_syn_7.dia[0]
+EMB (reg)                               0.000    f     0.760       1       
+--------------------------------------------------------------------  ---------------
+Arrival                                                0.760               
+
+capture edge                            0.000    r     0.000               
+--------------------------------------------------------------------  ---------------
+hold                                    0.200          0.200               
+clock uncertainty                       0.000          0.200               
+clock pessimism                         0.000          0.200               
+--------------------------------------------------------------------  ---------------
+Required                                               0.200               
+--------------------------------------------------------------------  ---------------
+Slack                                                  0.560               
+
+
+Inter clock domain timing
+--------------------------------------------------
+
+IP timing
+--------------------------------------------------

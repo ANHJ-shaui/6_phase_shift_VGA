@@ -1,0 +1,114 @@
+standard
+***Report Model: adda_direct Device: EG4S20BG256***
+
+IO Statistics
+#IO                        49   out of    188   26.06%
+  #input                   17
+  #output                  32
+  #inout                    0
+
+LUT Statistics
+#Total_luts              1879
+  #lut4                  1580
+  #lut5                   299
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b               0
+
+Utilization Statistics
+#lut                     3359   out of  19600   17.14%
+#reg                     2200   out of  19600   11.22%
+#bram                      15   out of     64   23.44%
+  #bram9k                  15
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#dsp                        6   out of     29   20.69%
+#pad                       49   out of    188   26.06%
+  #ireg                    15
+  #oreg                     0
+  #treg                     0
+#pll                        1   out of      4   25.00%
+#gclk                       3   out of     16   18.75%
+
+Report Hierarchy Area:
++------------------------------------------------------------------------------------------------------------+
+|Instance                            |Module                    |lut     |ripple  |seq     |bram    |dsp     |
++------------------------------------------------------------------------------------------------------------+
+|top                                 |adda_direct               |2619    |740     |2215    |15      |6       |
+|  u_bufg100                         |BUFG_0                    |0       |0       |0       |0       |0       |
+|  u_bufg25                          |BUFG_0                    |0       |0       |0       |0       |0       |
+|  u_bufg50                          |BUFG_0                    |0       |0       |0       |0       |0       |
+|  u_cap                             |wave_capture              |63      |20      |63      |0       |0       |
+|  u_dpram                           |dpram                     |0       |0       |0       |1       |0       |
+|  u_dpram_in                        |dpram                     |0       |0       |0       |1       |0       |
+|  u_dpram_ot                        |dpram                     |0       |0       |0       |1       |0       |
+|  u_dpram_xy                        |dpram                     |0       |0       |0       |1       |0       |
+|  u_fc                              |freq_counter              |49      |14      |64      |0       |0       |
+|  u_key0                            |key_debounce              |36      |14      |24      |0       |0       |
+|  u_key1                            |key_debounce              |36      |14      |24      |0       |0       |
+|  u_key2                            |key_debounce              |36      |14      |24      |0       |0       |
+|  u_meas                            |measure                   |194     |59      |169     |0       |4       |
+|  u_nco                             |nco                       |914     |234     |1343    |0       |2       |
+|    u_div                           |div_gen_32                |816     |180     |1260    |0       |0       |
+|      divider_top_2e799f05df53_Inst |divider_top_2e799f05df53  |816     |180     |1260    |0       |0       |
+|        Sub_a[0]$u_sub_a            |divider_sub_2e799f05df53  |1       |0       |0       |0       |0       |
+|        Sub_b[10]$u_sub_b           |divider_sub_2e799f05df53  |25      |7       |22      |0       |0       |
+|        Sub_b[11]$u_sub_b           |divider_sub_2e799f05df53  |7       |7       |0       |0       |0       |
+|        Sub_b[12]$u_sub_b           |divider_sub_2e799f05df53  |36      |4       |26      |0       |0       |
+|        Sub_b[13]$u_sub_b           |divider_sub_2e799f05df53  |23      |4       |28      |0       |0       |
+|        Sub_b[14]$u_sub_b           |divider_sub_2e799f05df53  |5       |5       |0       |0       |0       |
+|        Sub_b[15]$u_sub_b           |divider_sub_2e799f05df53  |43      |5       |32      |0       |0       |
+|        Sub_b[16]$u_sub_b           |divider_sub_2e799f05df53  |27      |5       |34      |0       |0       |
+|        Sub_b[17]$u_sub_b           |divider_sub_2e799f05df53  |5       |5       |0       |0       |0       |
+|        Sub_b[18]$u_sub_b           |divider_sub_2e799f05df53  |48      |6       |38      |0       |0       |
+|        Sub_b[19]$u_sub_b           |divider_sub_2e799f05df53  |29      |6       |40      |0       |0       |
+|        Sub_b[1]$u_sub_b            |divider_sub_2e799f05df53  |45      |0       |4       |0       |0       |
+|        Sub_b[20]$u_sub_b           |divider_sub_2e799f05df53  |6       |6       |0       |0       |0       |
+|        Sub_b[21]$u_sub_b           |divider_sub_2e799f05df53  |53      |6       |44      |0       |0       |
+|        Sub_b[22]$u_sub_b           |divider_sub_2e799f05df53  |32      |7       |46      |0       |0       |
+|        Sub_b[23]$u_sub_b           |divider_sub_2e799f05df53  |7       |7       |0       |0       |0       |
+|        Sub_b[24]$u_sub_b           |divider_sub_2e799f05df53  |59      |7       |50      |0       |0       |
+|        Sub_b[25]$u_sub_b           |divider_sub_2e799f05df53  |34      |7       |52      |0       |0       |
+|        Sub_b[26]$u_sub_b           |divider_sub_2e799f05df53  |8       |8       |0       |0       |0       |
+|        Sub_b[27]$u_sub_b           |divider_sub_2e799f05df53  |65      |8       |56      |0       |0       |
+|        Sub_b[28]$u_sub_b           |divider_sub_2e799f05df53  |38      |8       |58      |0       |0       |
+|        Sub_b[29]$u_sub_b           |divider_sub_2e799f05df53  |8       |8       |0       |0       |0       |
+|        Sub_b[2]$u_sub_b            |divider_sub_2e799f05df53  |3       |3       |0       |0       |0       |
+|        Sub_b[30]$u_sub_b           |divider_sub_2e799f05df53  |70      |9       |62      |0       |0       |
+|        Sub_b[31]$u_sub_b           |divider_sub_2e799f05df53  |9       |9       |0       |0       |0       |
+|        Sub_b[3]$u_sub_b            |divider_sub_2e799f05df53  |21      |3       |8       |0       |0       |
+|        Sub_b[4]$u_sub_b            |divider_sub_2e799f05df53  |18      |4       |10      |0       |0       |
+|        Sub_b[5]$u_sub_b            |divider_sub_2e799f05df53  |4       |4       |0       |0       |0       |
+|        Sub_b[6]$u_sub_b            |divider_sub_2e799f05df53  |27      |5       |14      |0       |0       |
+|        Sub_b[7]$u_sub_b            |divider_sub_2e799f05df53  |20      |5       |16      |0       |0       |
+|        Sub_b[8]$u_sub_b            |divider_sub_2e799f05df53  |6       |6       |0       |0       |0       |
+|        Sub_b[9]$u_sub_b            |divider_sub_2e799f05df53  |34      |6       |20      |0       |0       |
+|        [10]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |0       |0       |30      |0       |0       |
+|        [12]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |0       |0       |30      |0       |0       |
+|        [13]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |0       |0       |30      |0       |0       |
+|        [15]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |0       |0       |30      |0       |0       |
+|        [16]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |0       |0       |30      |0       |0       |
+|        [18]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |0       |0       |30      |0       |0       |
+|        [19]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |0       |0       |30      |0       |0       |
+|        [1]$U_DIVISOR_DRAM          |divider_dram_2e799f05df53 |0       |0       |30      |0       |0       |
+|        [21]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |0       |0       |30      |0       |0       |
+|        [22]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |0       |0       |30      |0       |0       |
+|        [24]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |0       |0       |30      |0       |0       |
+|        [25]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |0       |0       |30      |0       |0       |
+|        [27]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |0       |0       |30      |0       |0       |
+|        [28]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |0       |0       |30      |0       |0       |
+|        [30]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |0       |0       |30      |0       |0       |
+|        [3]$U_DIVISOR_DRAM          |divider_dram_2e799f05df53 |0       |0       |30      |0       |0       |
+|        [4]$U_DIVISOR_DRAM          |divider_dram_2e799f05df53 |0       |0       |30      |0       |0       |
+|        [6]$U_DIVISOR_DRAM          |divider_dram_2e799f05df53 |0       |0       |30      |0       |0       |
+|        [7]$U_DIVISOR_DRAM          |divider_dram_2e799f05df53 |0       |0       |30      |0       |0       |
+|        [9]$U_DIVISOR_DRAM          |divider_dram_2e799f05df53 |0       |0       |30      |0       |0       |
+|  u_period                          |period_measure            |41      |9       |64      |0       |0       |
+|  u_pll                             |PL                        |1       |0       |0       |0       |0       |
+|  u_vga                             |vga_ui_p5                 |923     |231     |128     |10      |0       |
+|    u_scope                         |xy_scope                  |51      |15      |18      |8       |0       |
+|    u_text                          |vga_text_p5               |712     |104     |73      |2       |0       |
+|    u_timing                        |vga_timing                |37      |27      |18      |0       |0       |
+|  u_wram                            |wave_ram                  |8       |0       |0       |1       |0       |
+|  u_zero_cross                      |zero_cross_det            |16      |14      |2       |0       |0       |
++------------------------------------------------------------------------------------------------------------+

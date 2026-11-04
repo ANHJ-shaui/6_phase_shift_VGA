@@ -1,0 +1,343 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrator\Desktop\2026FPGA\4_NCO\src\al_ip\div_gen_32
+vadda_direct
+Z1 Iz8MOZD3Q]5Q18BY>@L3B:3
+Z2 V=HX=QiQ0O5n]^P1=zW8]=1
+Z3 dC:\Users\Administrator\Desktop\2026FPGA\4_NCO\src\al_ip\div_gen_32
+Z4 w1790665936
+Z5 8C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/adda_direct.v
+Z6 FC:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/adda_direct.v
+L0 4
+Z7 OV;L;10.1d;51
+r1
+31
+o-O0
+!i10b 1
+Z8 !s100 ?mBV5Ug^aXR1eddIWSEjn0
+!s85 0
+Z9 !s108 1790666623.632000
+Z10 !s107 C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/adda_direct.v|
+Z11 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/adda_direct.v|
+!s101 -O0
+vadda_direct_tb
+!i10b 1
+!s100 1kRL31NTJ3UzQnfJmQWH[2
+Ig[WNYN7gj78AO5^=jgAY[1
+V[`gJe4EM<TZX2kRPTfX5F2
+R3
+w1790666194
+8C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/adda_direct_tb.v
+FC:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/adda_direct_tb.v
+L0 3
+R7
+r1
+!s85 0
+31
+!s108 1790666623.708000
+!s107 C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/adda_direct_tb.v|
+!s90 -reportprogress|300|C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/adda_direct_tb.v|
+!s101 -O0
+o-O0
+vBUFG_0
+Z12 I^@BOEH=9TBdimE3lhGm<D2
+Z13 VCYQ8Oe3IR`5l4nfX]ElcQ0
+R3
+Z14 w1790576998
+Z15 8C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/BUFG_0.v
+Z16 FC:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/BUFG_0.v
+L0 14
+R7
+r1
+31
+o-O0
+Z17 n@b@u@f@g_0
+Z18 !s100 JS0KCXD_0@UHkh?haBBgF3
+Z19 !s108 1790666623.249000
+Z20 !s107 C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/BUFG_0.v|
+Z21 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/BUFG_0.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdiv_gen_32
+Z22 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z23 IJ>RHn[iY1_L_CPfQ0j]oZ2
+Z24 VRWfNKkL[Zbf@24LbX4z>n2
+S1
+R3
+Z25 w1790645237
+Z26 8C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/div_gen_32/div_gen_32.sv
+Z27 FC:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/div_gen_32/div_gen_32.sv
+L0 10
+R7
+r1
+31
+Z28 o-sv -O0
+Z29 !s92 -sv +incdir+C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/div_gen_32/RTL/include -O0
+Z30 !s100 Plie2eRdKT`9AO;OlNZXn3
+Z31 !s105 div_gen_32_sv_unit
+Z32 !s108 1790666623.085000
+Z33 !s107 C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/div_gen_32/div_gen_32.sv|
+Z34 !s90 -reportprogress|300|-sv|+incdir+C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/div_gen_32/RTL/include|C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/div_gen_32/div_gen_32.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vv8aWjt35Sspb6zF+lP2SFxXMP/7uc7uXGTQsHzau94s=
+R22
+Z35 I;VPY]GWBSU8eO4_a4zo2G3
+Z36 Vhm<C]RfS[56H0c[@UP?gL1
+Z37 !s105 divider_top_2e799f05df53_sv_unit
+S1
+d.
+Z38 Fnofile
+Z39 L0 1147
+R7
+r1
+31
+Z40 !s108 1790666621.779000
+Z41 !s107 C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv|
+Z42 !s90 -reportprogress|300|-sv|+incdir+C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/div_gen_32/RTL/include|C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv|
+R28
+R29
+Z43 n6e47be3
+Z44 !s100 d8kaX1;Mo<?EYfA@N476G3
+!i10b 0
+!i8a 1368961952
+!s85 0
+!s101 -O0
+v+SmkDJPSs1zTU8wIE0nenAMLLb6VkQLEBhqdGLOlI+3sr/BwZGegBxVq2jHGmczA
+R22
+Z45 IXjGUmmZM6:^c0SZ:SFdPB0
+Z46 VOWOEnZjBEOZbaD6o9=jZ]0
+R37
+S1
+d.
+R38
+Z47 L0 627
+R7
+r1
+31
+R40
+R41
+R42
+R28
+R29
+Z48 n6a2acf3
+Z49 !s100 VXZ@3CVz;8[g5LeMBEc]:1
+!i10b 0
+!i8a 1368961952
+!s85 0
+!s101 -O0
+v4ZQG5pw5Hgq+c1KIdBo2a3uCIF0UAvF8S/oNz37EXzPfFVKUMmxW3xRDmObTbcDC
+R22
+Z50 I7@3A4V<4^bIhC`BJBbQOz0
+Z51 V?B:4[<gnVc>HlS?iTTKhL3
+R37
+S1
+d.
+R38
+Z52 L0 776
+R7
+r1
+31
+R40
+R41
+R42
+R28
+R29
+Z53 n112e9e3
+Z54 !s100 OTU=_RFT98iES[e3W_W3Q2
+!i10b 0
+!i8a 1368961952
+!s85 0
+!s101 -O0
+v8rk3+HsNvDvxkZkjImz6/IeFtpo838sJwTm74BYqkIw=
+R22
+Z55 ITHd_aoni0>YcYEB26z6a22
+Z56 VA838=;iNAFNlf:ETjWV_I0
+R37
+S1
+d.
+R38
+Z57 L0 1017
+R7
+r1
+31
+R40
+R41
+R42
+R28
+R29
+Z58 n58bbf63
+Z59 !s100 N86N>0N]YS3_En?[STe;z3
+!i10b 0
+!i8a 1368961952
+!s85 0
+!s101 -O0
+vuwxnDq9efO9DSunmdnrvavFgltMbCUy9o3HFVTIFqQ0=
+R22
+Z60 I]Lf@h@8dk^53AD9SS9YSM2
+Z61 V4]z;a1F1IB=:Q?>:Gazh;3
+R37
+S1
+d.
+R38
+Z62 L0 1250
+R7
+r1
+31
+R40
+R41
+R42
+R28
+R29
+Z63 n6d60dd3
+Z64 !s100 =T3NQ6:k>3zQDo[_U]bSQ2
+!i10b 0
+!i8a 1368961952
+!s85 0
+!s101 -O0
+vktGLHm4Ml/Uxul35hPGr4peoDwUufAa7zCC0TMBVJ+k=
+R22
+Z65 IPcGhE9L[jbFdL3afWzTRc3
+Z66 VOk=9BSBEfJ?:1dNiRc>L10
+R37
+S1
+d.
+R38
+Z67 L0 900
+R7
+r1
+31
+R40
+R41
+R42
+R28
+R29
+Z68 n1656193
+Z69 !s100 f0M`b3[a4Nn_OiZjgP6<62
+!i10b 0
+!i8a 1368961952
+!s85 0
+!s101 -O0
+vdivider_top_2e799f05df53
+R22
+Z70 I6BKK>MbXm`iWZ^]gBAc8[3
+Z71 VTZ6@<hhJNoO`CJF]RE@jW1
+R37
+S1
+R3
+Z72 w1790645238
+Z73 8C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv
+Z74 FC:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv
+L0 3
+R7
+r1
+31
+R40
+R41
+R42
+R28
+R29
+Z75 !s100 GVDz6_Oc>7WoegQGm9nB^1
+!i10b 1
+!s85 0
+!s101 -O0
+vdpram
+Z76 IFD]`hVeGlDPn^XR@Ye7lI3
+Z77 VXbdK7DJ5ak?edV13h<llM0
+R3
+Z78 w1790665580
+Z79 8C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/dpram.v
+Z80 FC:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/dpram.v
+L0 1
+R7
+r1
+31
+o-O0
+Z81 !s100 ^V<1ORanj_bld3YLFIm<V1
+Z82 !s108 1790666623.556000
+Z83 !s107 C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/dpram.v|
+Z84 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/dpram.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vnco
+Z85 IkH]Gk7FI@TN7i4Bl0@WP31
+Z86 ViH^gYkaUmV=FzUP]4LHX40
+R3
+Z87 w1790665613
+Z88 8C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/nco.v
+Z89 FC:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/nco.v
+L0 1
+R7
+r1
+31
+o-O0
+Z90 !s100 46e[X`Ki@`HCd^T>S>zd62
+Z91 !s108 1790666623.477000
+Z92 !s107 C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/nco.v|
+Z93 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/nco.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vperiod_measure
+Z94 I@_4UeY@JMBZmUkYJ4ALOb3
+Z95 Vd[f=W^GTLhIOR2FgoT7Zi2
+R3
+Z96 w1790579241
+Z97 8C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/period_measure.v
+Z98 FC:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/period_measure.v
+L0 1
+R7
+r1
+31
+o-O0
+Z99 !s100 :81_YW[4nK0XT5Pc_k_ba1
+Z100 !s108 1790666623.400000
+Z101 !s107 C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/period_measure.v|
+Z102 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/period_measure.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vPL
+Z103 IjOh<XQCn9GjmNCkzMk];:0
+Z104 V]XelzojEAdN3FonOJIODd1
+R3
+Z105 w1790576941
+Z106 8C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/PL.v
+Z107 FC:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/PL.v
+L0 24
+R7
+r1
+31
+o-O0
+n@p@l
+Z108 !s100 4OnHQ1M;[F@IUaAn[Yjik2
+Z109 !s108 1790666623.166000
+Z110 !s107 C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/PL.v|
+Z111 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/PL.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vzero_cross_det
+Z112 IWI9Z`gD_kG5R`9@>BFkiB3
+Z113 V2A9XnU:G2JlYP2h=C6?6>2
+R3
+Z114 w1790575986
+Z115 8C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/zero_cross_det.v
+Z116 FC:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/zero_cross_det.v
+L0 1
+R7
+r1
+31
+o-O0
+Z117 !s100 l93Yg4l]@`;PhZ5<6RMbE2
+Z118 !s108 1790666623.324000
+Z119 !s107 C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/zero_cross_det.v|
+Z120 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/zero_cross_det.v|
+!i10b 1
+!s85 0
+!s101 -O0

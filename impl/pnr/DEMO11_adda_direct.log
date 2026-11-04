@@ -1,0 +1,29 @@
+Reading netlist file: "C:\Users\Administrator\Desktop\GW2A18\DEMO\MODU_DEMO\DEMO11_adda_direct\impl\gwsynthesis\DEMO11_adda_direct.vg"
+Parsing netlist file "C:\Users\Administrator\Desktop\GW2A18\DEMO\MODU_DEMO\DEMO11_adda_direct\impl\gwsynthesis\DEMO11_adda_direct.vg" completed
+Processing netlist completed
+Reading constraint file: "C:\Users\Administrator\Desktop\GW2A18\DEMO\MODU_DEMO\DEMO11_adda_direct\src\DEMO11_adda_direct.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "C:\Users\Administrator\Desktop\GW2A18\DEMO\MODU_DEMO\DEMO11_adda_direct\impl\pnr\DEMO11_adda_direct.power.html" completed
+Generate file "C:\Users\Administrator\Desktop\GW2A18\DEMO\MODU_DEMO\DEMO11_adda_direct\impl\pnr\DEMO11_adda_direct.pin.html" completed
+Generate file "C:\Users\Administrator\Desktop\GW2A18\DEMO\MODU_DEMO\DEMO11_adda_direct\impl\pnr\DEMO11_adda_direct.rpt.html" completed
+Generate file "C:\Users\Administrator\Desktop\GW2A18\DEMO\MODU_DEMO\DEMO11_adda_direct\impl\pnr\DEMO11_adda_direct.rpt.txt" completed
+Generate file "C:\Users\Administrator\Desktop\GW2A18\DEMO\MODU_DEMO\DEMO11_adda_direct\impl\pnr\DEMO11_adda_direct.tr.html" completed
+Fri Jul 21 13:11:50 2023
+

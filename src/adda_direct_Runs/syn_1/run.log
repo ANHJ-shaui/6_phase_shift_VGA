@@ -1,0 +1,724 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = C:/Anlogic/bin/run.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     rgly
+   Run Date =   Tue Oct 27 17:18:28 2026
+
+   Run on =     DESKTOP-E5544GD
+============================================================
+RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+RUN-1001 : Using default speed grade: NA
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "open_project adda_direct.prj"
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+HDL-1007 : analyze verilog file ../../al_ip/BUFG_0.v
+HDL-1007 : analyze verilog file ../../al_ip/PL.v
+HDL-1007 : undeclared symbol 'PL_open0', assumed default net type 'wire' in ../../al_ip/PL.v(79)
+HDL-1007 : undeclared symbol 'PL_open8', assumed default net type 'wire' in ../../al_ip/PL.v(85)
+HDL-1007 : undeclared symbol 'PL_open7', assumed default net type 'wire' in ../../al_ip/PL.v(85)
+HDL-1007 : undeclared symbol 'PL_open6', assumed default net type 'wire' in ../../al_ip/PL.v(85)
+HDL-1007 : undeclared symbol 'PL_open5', assumed default net type 'wire' in ../../al_ip/PL.v(85)
+HDL-1007 : undeclared symbol 'PL_open4', assumed default net type 'wire' in ../../al_ip/PL.v(85)
+HDL-1007 : undeclared symbol 'PL_open3', assumed default net type 'wire' in ../../al_ip/PL.v(85)
+HDL-1007 : undeclared symbol 'PL_open2', assumed default net type 'wire' in ../../al_ip/PL.v(85)
+HDL-1007 : undeclared symbol 'PL_open1', assumed default net type 'wire' in ../../al_ip/PL.v(85)
+HDL-1007 : undeclared symbol 'PL_open10', assumed default net type 'wire' in ../../al_ip/PL.v(87)
+HDL-1007 : undeclared symbol 'PL_open9', assumed default net type 'wire' in ../../al_ip/PL.v(87)
+HDL-1007 : analyze verilog file ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-1007 : back to file '../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv' in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(31)
+HDL-1007 : back to file '../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv' in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(550)
+HDL-1007 : back to file '../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv' in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(691)
+HDL-1007 : back to file '../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv' in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(807)
+HDL-1007 : back to file '../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv' in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(916)
+HDL-1007 : back to file '../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv' in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(1038)
+HDL-1007 : back to file '../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv' in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(1133)
+HDL-1007 : analyze verilog file ../../al_ip/div_gen_32/div_gen_32.sv
+HDL-1007 : analyze verilog file ../../adda_direct.v
+HDL-1007 : analyze verilog file ../../zero_cross_det.v
+HDL-1007 : analyze verilog file ../../period_measure.v
+HDL-1007 : analyze verilog file ../../nco.v
+HDL-1007 : analyze verilog file ../../dpram.v
+HDL-1007 : analyze verilog file ../../key_debounce.v
+HDL-1007 : analyze verilog file ../../vga_ui_p5.v
+HDL-1007 : analyze verilog file ../../vga_text_p5.v
+HDL-1007 : analyze verilog file ../../xy_scope.v
+HDL-1007 : analyze verilog file ../../freq_counter.v
+HDL-1007 : analyze verilog file ../../measure.v
+HDL-1007 : analyze verilog file ../../wave_ram.v
+HDL-1007 : analyze verilog file ../../vga_timing.v
+HDL-1007 : analyze verilog file ../../wave_capture.v
+PRJ-1401 : Successfully analyzed 18 source files.
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+RUN-1002 : start command "elaborate -top adda_direct"
+HDL-1007 : elaborate module adda_direct in ../../adda_direct.v(26)
+HDL-1007 : elaborate module PL in ../../al_ip/PL.v(24)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000000",FBCLK_DIV=20,CLKC0_DIV=10,CLKC1_DIV=20,CLKC2_DIV=40,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",FEEDBK_MODE="NOCOMP",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=9,CLKC1_CPHASE=19,CLKC2_CPHASE=39,GMC_GAIN=4,ICP_CURRENT=13,KVCO=4,LPF_CAPACITOR=1,LPF_RESISTOR=4,SYNC_ENABLE="DISABLE") in C:\Anlogic\arch/eagle_macro.v(889)
+HDL-1007 : elaborate module BUFG_0 in ../../al_ip/BUFG_0.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BUFG in C:\Anlogic\arch/eagle_macro.v(5)
+HDL-1007 : elaborate module zero_cross_det in ../../zero_cross_det.v(1)
+HDL-1007 : elaborate module period_measure in ../../period_measure.v(1)
+HDL-1007 : elaborate module key_debounce in ../../key_debounce.v(5)
+HDL-1007 : elaborate module nco in ../../nco.v(1)
+HDL-1007 : port 's_axis_dividend_tready' remains unconnected for this instance in ../../al_ip/div_gen_32/div_gen_32.sv(22)
+HDL-1007 : port 's_axis_divisor_tready' remains unconnected for this instance in ../../al_ip/div_gen_32/div_gen_32.sv(22)
+HDL-1007 : port 'm_axis_dout_tready' remains unconnected for this instance in ../../al_ip/div_gen_32/div_gen_32.sv(22)
+HDL-1007 : elaborate module div_gen_32 in ../../al_ip/div_gen_32/div_gen_32.sv(10)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-1007 : elaborate module ** in ../../al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv(3)
+HDL-5317 WARNING: input port 'm_axis_dout_tready' is not connected on this instance in ../../al_ip/div_gen_32/div_gen_32.sv(32)
+HDL-5323 WARNING: input port 'aresetn' remains unconnected for this instance in ../../nco.v(35)
+HDL-1007 : elaborate module dpram in ../../dpram.v(1)
+HDL-1007 : extracting RAM for identifier 'ram' in ../../dpram.v(13)
+HDL-1007 : elaborate module freq_counter in ../../freq_counter.v(10)
+HDL-1007 : elaborate module measure in ../../measure.v(8)
+HDL-1007 : elaborate module wave_capture(POINTS=320,Y_BASE=311) in ../../wave_capture.v(21)
+HDL-1007 : elaborate module wave_ram in ../../wave_ram.v(13)
+HDL-1007 : extracting RAM for identifier 'mem' in ../../wave_ram.v(28)
+HDL-1007 : elaborate module vga_ui_p5 in ../../vga_ui_p5.v(26)
+HDL-1007 : elaborate module vga_timing in ../../vga_timing.v(8)
+HDL-1007 : elaborate module xy_scope in ../../xy_scope.v(29)
+HDL-1007 : extracting RAM for identifier 'mem' in ../../xy_scope.v(58)
+HDL-1007 : elaborate module vga_text_p5 in ../../vga_text_p5.v(27)
+HDL-1007 : extracting RAM for identifier 'font' in ../../vga_text_p5.v(414)
+HDL-1007 : readmemh: reading from file 'font8x16.hex' in ../../vga_text_p5.v(417)
+HDL-5314 WARNING: net 'font' does not have a driver in ../../vga_text_p5.v(414)
+HDL-1200 : Current top model is adda_direct
+HDL-1100 : Inferred 4 RAMs.
+RUN-1002 : start command "read_adc ../../adda_direct.adc"
+RUN-1002 : start command "set_pin_assignment  ad_clk   LOCATION = G14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  ad_dat[0]   LOCATION = G16; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  ad_dat[10]   LOCATION = K12; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  ad_dat[11]   LOCATION = J13; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  ad_dat[1]   LOCATION = F15; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  ad_dat[2]   LOCATION = F14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  ad_dat[3]   LOCATION = E15; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  ad_dat[4]   LOCATION = D16; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  ad_dat[5]   LOCATION = M10; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  ad_dat[6]   LOCATION = L10; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  ad_dat[7]   LOCATION = P11; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  ad_dat[8]   LOCATION = M14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  ad_dat[9]   LOCATION = L14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  clk_50m   LOCATION = R7; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  da_clk   LOCATION = K15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  da_dat[0]   LOCATION = R15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  da_dat[10]   LOCATION = H15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  da_dat[11]   LOCATION = J16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  da_dat[1]   LOCATION = P15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  da_dat[2]   LOCATION = P16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  da_dat[3]   LOCATION = N14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  da_dat[4]   LOCATION = N16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  da_dat[5]   LOCATION = L16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  da_dat[6]   LOCATION = M15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  da_dat[7]   LOCATION = M16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  da_dat[8]   LOCATION = K16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  da_dat[9]   LOCATION = H16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  reset_n   LOCATION = A2;  IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  key_mode0   LOCATION = B2; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  key_mode1   LOCATION = B1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  key_mode2   LOCATION = C1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  lock_led   LOCATION = A4;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  led_mode0   LOCATION = A3; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  led_mode1   LOCATION = C10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  led_mode2   LOCATION = B12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_hs   LOCATION = E7;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_vs   LOCATION = F7;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_b[0]   LOCATION = F6;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_b[1]   LOCATION = E6;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_b[2]   LOCATION = D6;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_b[3]   LOCATION = D5;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_g[0]   LOCATION = T5;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_g[1]   LOCATION = P5;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_g[2]   LOCATION = N5;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_g[3]   LOCATION = N6;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_r[0]   LOCATION = R5;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_r[1]   LOCATION = L7;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_r[2]   LOCATION = L8;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_r[3]   LOCATION = E13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1001 : Starting of IO setups legality check.
+RUN-1001 : Starting of IO vref setups legality check.
+RUN-1002 : start command "export_db adda_direct_elaborate.db"
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported packer
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported ATMR Setting
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported ChipWatcher
+RUN-1002 : start command "commit_param -step rtl"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : -------------------------------------------------------------------
+RUN-1001 :         Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : -------------------------------------------------------------------
+RUN-1001 :        fix_undriven       |     0      |        0         |        
+RUN-1001 :   gated_clock_conversion  |    off     |       off        |        
+RUN-1001 :         infer_fsm         |    auto    |       auto       |        
+RUN-1001 :         infer_gsr         |    off     |       off        |        
+RUN-1001 :         infer_rom         |     on     |        on        |        
+RUN-1001 :       keep_hierarchy      |    auto    |       auto       |        
+RUN-1001 :        merge_equal        |     on     |        on        |        
+RUN-1001 :      min_control_set      |     8      |        8         |        
+RUN-1001 :       min_ripple_len      |    auto    |       auto       |        
+RUN-1001 :          seq_syn          |     on     |        on        |        
+RUN-1001 : -------------------------------------------------------------------
+RUN-1002 : start command "insert_debugger"
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file C:/Anlogic/license/Anlogic.lic
+SYN-1001 : Stage 1 | Optimize RTL
+SYN-1001 : Stage 1.1 | Check Design Sanity
+SYN-1001 : End Stage 1.1 | Check Design Sanity; Time: 0.009626s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (162.3%); Memory(MB): used = 136, reserved = 259, peak = 136;
+
+SYN-1079 : finish stage Check Design Sanity. Total instances: 11356, Total nets: 24801.
+
+SYN-1001 : Stage 1.2 | Initialize Design
+SYN-1001 : End Stage 1.2 | Initialize Design; Time: 1.206528s wall, 1.125000s user + 0.000000s system = 1.125000s CPU (93.2%); Memory(MB): used = 136, reserved = 259, peak = 136;
+
+SYN-1079 : finish stage Initialize Design. Total instances: 3054, Total nets: 15091.
+
+SYN-1001 : Stage 1.3 | Flatten Module
+SYN-1011 : Flatten model adda_direct
+SYN-1001 : End Stage 1.3 | Flatten Module; Time: 0.163019s wall, 0.156250s user + 0.000000s system = 0.156250s CPU (95.8%); Memory(MB): used = 137, reserved = 259, peak = 137;
+
+SYN-1079 : finish stage Flatten Module. Total instances: 3277, Total nets: 14666.
+
+SYN-1001 : Stage 1.4 | Uniform Instance
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-1001 : End Stage 1.4 | Uniform Instance; Time: 0.024718s wall, 0.031250s user + 0.000000s system = 0.031250s CPU (126.4%); Memory(MB): used = 130, reserved = 132, peak = 137;
+
+SYN-1079 : finish stage Uniform Instance. Total instances: 3092, Total nets: 14440.
+
+SYN-1001 : Stage 1.5 | Optimize Design
+SYN-1066 : Inferred FSM for state register 'u_meas/ph_reg' in module 'adda_direct'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00              001
+                    01              010
+                    10              100
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_meas/ph_reg' using encoding 'one_hot' in model 'adda_direct'
+SYN-1057 : Inferred 1 FSM(s)
+SYN-1001 : Optimize 2 less-than instances
+SYN-1001 : Optimize 3 less-than instances
+SYN-1032 : 10387/3825 useful/useless nets, 2920/1 useful/useless insts
+SYN-1001 : Bypass 2 mux instances
+SYN-1019 : Optimized 1 mux instances.
+SYN-1001 : Optimize 3 less-than instances
+SYN-1016 : Merged 423 instances.
+SYN-1026 : Infer Logic BRAM(u_dpram/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 512 x 12	 write mode: NORMAL
+	 port b size: 512 x 12	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_dpram_in/ramread0_syn_5)
+	 port mode: single dual port
+	 port a size: 512 x 8	 write mode: NORMAL
+	 port b size: 512 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_dpram_ot/ramread0_syn_5)
+	 port mode: single dual port
+	 port a size: 512 x 8	 write mode: NORMAL
+	 port b size: 512 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_dpram_xy/ramread0_syn_5)
+	 port mode: single dual port
+	 port a size: 512 x 7	 write mode: NORMAL
+	 port b size: 512 x 7	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_vga/u_scope/ramread0_syn_4)
+	 port mode: dual port
+	 port a size: 16384 x 4	 write mode: READBEFOREWRITE
+	 port b size: 16384 x 4	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_wram/ramread0_syn_5)
+	 port mode: single dual port
+	 port a size: 512 x 20	 write mode: NORMAL
+	 port b size: 512 x 20	 write mode: READBEFOREWRITE
+SYN-1023 : Infer 0 Logic DRAMs, 7 Logic BRAMs.
+SYN-1016 : Merged 394 instances.
+SYN-1001 : End Stage 1.5 | Optimize Design; Time: 2.022304s wall, 1.812500s user + 0.015625s system = 1.828125s CPU (90.4%); Memory(MB): used = 141, reserved = 140, peak = 142;
+
+SYN-1079 : finish stage Optimize Design. Total instances: 5750, Total nets: 6999.
+
+SYN-1001 : Stage 1.6 | Optimize Iteratively
+SYN-1019 : Optimized 1 mux instances.
+SYN-1021 : Optimized 2 onehot mux instances.
+SYN-1014 : Optimize round 1
+SYN-1017 : Remove 59 const input seq instances
+SYN-1018 : Transformed 1 mux instances.
+SYN-1019 : Optimized 3 mux instances.
+SYN-1020 : Optimized 119 distributor mux.
+SYN-1001 : Optimize 30 less-than instances
+SYN-1019 : Optimized 3 mux instances.
+SYN-2595 : bram inst: u_dpram/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_dpram_in/ramread0_syn_5 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_dpram_ot/ramread0_syn_5 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_dpram_xy/ramread0_syn_5 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_wram/ramread0_syn_5 is set to PDPW/SP from DP for resource saving
+SYN-1001 : Optimize constant input of 1 erams.
+SYN-1016 : Merged 250 instances.
+SYN-1015 : Optimize round 1, 1728 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 1 inv instances.
+SYN-1017 : Remove 15 const input seq instances
+SYN-1019 : Optimized 6 mux instances.
+SYN-1020 : Optimized 3 distributor mux.
+SYN-2593 : bram inst: u_wram/ramread0_syn_5 will be optimized to a new one with A-width 18 due to unused data out
+SYN-1016 : Merged 4 instances.
+SYN-1015 : Optimize round 2, 70 better
+SYN-5011 WARNING: Undriven pin: model "adda_direct" / inst "u_wram/ramread0_syn_5" in ../../wave_ram.v(42) / pin "bea[0]"
+SYN-5011 WARNING: Undriven pin: model "adda_direct" / inst "u_wram/ramread0_syn_5" in ../../wave_ram.v(42) / pin "beb[0]"
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-3010 : Optimized 8 DFF(s)
+SYN-1014 : Optimize round 1
+SYN-1016 : Merged 3 instances.
+SYN-1015 : Optimize round 1, 6 better
+SYN-1014 : Optimize round 2
+SYN-1015 : Optimize round 2, 0 better
+SYN-1001 : End Stage 1.6 | Optimize Iteratively; Time: 5.402320s wall, 4.937500s user + 0.109375s system = 5.046875s CPU (93.4%); Memory(MB): used = 178, reserved = 177, peak = 187;
+
+SYN-1079 : finish stage Optimize Iteratively. Total instances: 5657, Total nets: 6862.
+
+SYN-1001 : Stage 1.7 | Check Design
+SYN-1001 : End Stage 1.7 | Check Design; Time: 0.002248s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%); Memory(MB): used = 178, reserved = 177, peak = 187;
+
+SYN-1079 : finish stage Check Design. Total instances: 5657, Total nets: 6862.
+
+SYN-1001 : End Stage 1 | Optimize RTL; Time: 8.832725s wall, 8.078125s user + 0.125000s system = 8.203125s CPU (92.9%); Memory(MB): used = 178, reserved = 177, peak = 187;
+
+SYN-1079 : finish stage Optimize RTL. Total instances: 5657, Total nets: 6862.
+
+RUN-1003 : finish command "optimize_rtl" in  8.864076s wall, 8.109375s user + 0.125000s system = 8.234375s CPU (92.9%)
+
+RUN-1004 : used memory is 178 MB, reserved memory is 177 MB, peak memory is 187 MB
+RUN-1002 : start command "report_area -file adda_direct_rtl.area"
+RUN-1001 : standard
+***Report Model: adda_direct Device: EG4S20BG256***
+
+IO Statistics
+#IO                        49
+  #input                   17
+  #output                  32
+  #inout                    0
+
+Gate Statistics
+#Basic gates             3812
+  #and                    226
+  #nand                     0
+  #or                     449
+  #nor                      0
+  #xor                      3
+  #xnor                     0
+  #buf                      0
+  #not                    294
+  #bufif1                   0
+  #MX21                   560
+  #FADD                     0
+  #DFF                   2280
+  #LATCH                    0
+#MACRO_ADD                339
+#MACRO_EQ                 135
+#MACRO_MULT                 5
+#MACRO_MUX               1021
+#MACRO_OTHERS              10
+
+RUN-1002 : start command "export_db adda_direct_rtl.db"
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported packer
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported ATMR Setting
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported ChipWatcher
+RUN-1002 : start command "commit_param -step gate"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Gate Property
+RUN-1001 : -----------------------------------------------------------
+RUN-1001 :     Parameters    |  Settings  |  Default Values  |  Note  
+RUN-1001 : -----------------------------------------------------------
+RUN-1001 :     eram_init     |    off     |       off        |        
+RUN-1001 :      map_mode     |    auto    |       auto       |        
+RUN-1001 :    pack_effort    |   medium   |      medium      |        
+RUN-1001 :   pack_seq_in_io  |    auto    |       auto       |        
+RUN-1001 :       report      |  standard  |     standard     |        
+RUN-1001 : -----------------------------------------------------------
+RUN-1002 : start command "optimize_gate -packarea adda_direct_gate.area"
+RUN-1001 : Open license file C:/Anlogic/license/Anlogic.lic
+SYN-1001 : Stage 2 | Optimize Gate
+SYN-1001 : Stage 2.1 | Map Reg
+SYN-1001 : End Stage 2.1 | Map Reg; Time: 0.264573s wall, 0.265625s user + 0.000000s system = 0.265625s CPU (100.4%); Memory(MB): used = 180, reserved = 258, peak = 191;
+
+SYN-1079 : finish stage Map Reg. Total instances: 5657, Total nets: 6862.
+
+SYN-1001 : Stage 2.2 | Map IO
+SYN-2001 : Map 49 IOs to PADs of model 'adda_direct'
+SYN-1001 : End Stage 2.2 | Map IO; Time: 0.237821s wall, 0.234375s user + 0.000000s system = 0.234375s CPU (98.6%); Memory(MB): used = 180, reserved = 259, peak = 191;
+
+SYN-1001 : Stage 2.3 | Map Macro
+RUN-1002 : start command "update_pll_param -module adda_direct"
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2501 : 3 BUFG to GCLK
+SYN-6562 WARNING: The init value of "u_dpram/ramread0_syn_4(../../dpram.v(24))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_dpram_in/ramread0_syn_5(../../dpram.v(24))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_dpram_ot/ramread0_syn_5(../../dpram.v(24))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_dpram_xy/ramread0_syn_5(../../dpram.v(24))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_vga/u_scope/ramread0_syn_4(../../xy_scope.v(160))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_wram/ramread0_syn_5(../../wave_ram.v(42))" will be ignored since gate eram_init is set to off
+SYN-2571 : Map 5 macro multiplier
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1016 : Merged 6 instances.
+SYN-2571 : Optimize after map_dsp, round 1, 6 better
+SYN-2571 : Optimize after map_dsp, round 2
+SYN-2571 : Optimize after map_dsp, round 2, 0 better
+SYN-1001 : Throwback 39 control mux instances
+SYN-1001 : Generate 2 bigger adders
+SYN-1001 : Optimize 20 adders
+SYN-2501 : Optimize round 1
+SYN-1016 : Merged 603 instances.
+SYN-2501 : Optimize round 1, 1842 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Optimize round 1
+SYN-2501 : Optimize round 1, 0 better
+SYN-2501 : Map 338 macro adder(s)
+SYN-1016 : Merged 201 instances.
+SYN-5011 WARNING: Undriven pin: model "adda_direct" / inst "ad_dat_r1_reg[0]" in ../../adda_direct.v(73) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "adda_direct" / inst "ad_dat_r1_reg[1]" in ../../adda_direct.v(73) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "adda_direct" / inst "ad_dat_r1_reg[2]" in ../../adda_direct.v(73) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "adda_direct" / inst "ad_dat_r1_reg[3]" in ../../adda_direct.v(73) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "adda_direct" / inst "ad_dat_r1_reg[4]" in ../../adda_direct.v(73) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "adda_direct" / inst "ad_dat_r1_reg[5]" in ../../adda_direct.v(73) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "adda_direct" / inst "ad_dat_r1_reg[6]" in ../../adda_direct.v(73) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "adda_direct" / inst "ad_dat_r1_reg[7]" in ../../adda_direct.v(73) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "adda_direct" / inst "ad_dat_r1_reg[8]" in ../../adda_direct.v(73) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "adda_direct" / inst "ad_dat_r1_reg[9]" in ../../adda_direct.v(73) / pin "clk"
+SYN-5011 Similar messages will be suppressed.
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-1001 : End Stage 2.3 | Map Macro; Time: 2.335573s wall, 2.171875s user + 0.046875s system = 2.218750s CPU (95.0%); Memory(MB): used = 190, reserved = 268, peak = 191;
+
+SYN-1079 : finish stage Map Macro. Total instances: 9141, Total nets: 10351.
+
+SYN-1001 : Stage 2.4 | Map Gate
+SYN-2581 : Mapping with K=5, #lut = 1899 (3.36), #lev = 12 (3.03), #crit_level = 0
+SYN-2551 : Post LUT mapping optimization.
+SYN-2581 : Mapping with K=5, #lut = 1879 (3.32), #lev = 12 (3.29), #crit_level = 0
+SYN-3001 : Logic optimization opt = 1.08 sec, map = 0.60 sec, post map opt = 3.18 sec.
+SYN-1001 : End Stage 2.4 | Map Gate; Time: 5.552376s wall, 5.359375s user + 0.000000s system = 5.359375s CPU (96.5%); Memory(MB): used = 211, reserved = 287, peak = 211;
+
+SYN-1001 : Packing model "adda_direct" ...
+SYN-4010 : Pack lib has 59 rtl pack models with 26 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1015 : Optimize round 1, 0 better
+SYN-4002 : Packing 2200 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 38 carry chain into lslice
+SYN-4007 : Packing 946 adder to BLE ...
+SYN-4008 : Packed 946 adder and 42 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+RUN-1002 : start command "report_qor -step gate -file gate.qor"
+RUN-1002 : start command "start_timer"
+-----------------------------------------------------------
+| QoR metrics               |         value               |
+-----------------------------------------------------------
+| Timing                    |                             |
+|     Setup WNS             |         1798                |
+|     Setup TNS             |            0                |
+|     Num of violated S-EP  |            0                |
+|     Hold WNS              |          471                |
+|     Hold TNS              |            0                |
+|     Num of violated H-EP  |            0                |
+-----------------------------------------------------------
+| Utilization               |                             |
+|     #registers            |         2158                |
+|     #luts                 |         1879                |
+|     #lut1                 |           14                |
+|     #lut1(~A)             |           14                |
+|     #slices               |          740                |
+|     slices percentage     |        7.55%                |
+|     #RAMs                 |           15                |
+|     #DSPs                 |            6                |
+|     #f7mux                |        0.00%                |
+|     #MACROs               |          119                |
+|     #insts in MACRO       |          740                |
+-----------------------------------------------------------
+| kept_net                  |                             |
+|     #syn_keep             |            0                |
+|     #keep_hier            |            0                |
+|     #dont_touch           |            0                |
+|     #mark_debug           |            0                |
+|     #max_fanout_keep      |            0                |
+|     #async_reg            |          166                |
+-----------------------------------------------------------
+| Top 10% datanet fanout#   |        23.76                |
+| dff(single fanout)->dff   |          339                |
+| dff(single fanout)->dram  |            0                |
+-----------------------------------------------------------
+| Over-quota path num*      |                             |
+|     Total                 |            0                |
+-----------------------------------------------------------
+| Rent**                    |                             |
+-----------------------------------------------------------
+Note*: Over-quota path shows the over-path-level-threshold path number of each clock.
+       The clock will not be shown if no path is with path level over the threshold.
+       The threshold is defined as worst path_margin / 800ps.
+Note**: Rent shows the rent exponent value of the modules whose rent value exceeds the threshold.
+        Only modules under top are reported, and the threshold is defined as 0.7.
+
+Logic Level Distribution
+---------------------------------------------------------------------------------------------------------------------------------------------
+  Clock        |  Period            |  0     |  1    |  2    |  3    |  4    |  5    |  6   |  7   |  8   |  9   |  10  |  11  |  12  |  17
+---------------------------------------------------------------------------------------------------------------------------------------------
+  DeriveClock  |  20.000ns (50MHz)  |  1299  |  110  |  152  |  329  |  286  |  213  |  96  |  13  |  95  |  17  |  42  |  9   |  32  |  2
+---------------------------------------------------------------------------------------------------------------------------------------------
+Note: The table count the worst 100000 paths, each endpoint count only one time.(2695 paths analyzed)
+
+Hierarchical Rent Exponent Report
++--------------------------------------------------------------+
+|Inst     |Model        |Rent     |Cell     |Pin     |Term     |
++--------------------------------------------------------------+
+|top      |adda_direct  |0.18     |5183     |20106   |18       |
+|  u_vga  |vga_ui_p5_17 |0.52     |1050     |5034    |173      |
+|  u_nco  |nco_14       |0.36     |2250     |7739    |55       |
++--------------------------------------------------------------+
+Note: Cell represents total number of cells inside module; Pin represents total number of pins
+      which have net connection inside module; Term represents total number of PIs and POs of module.
+      Rent represents the relationship between number of terms and number of cells in module.
+      A module with higher rent corresponds to highly connected logic and strong connectivity with others.
+Report gate stage QoR done.
+
+SYN-1001 : The design has 14 dangling async_reg insts.
+RUN-1003 : finish command "report_qor -step gate -file gate.qor" in  1.448698s wall, 1.375000s user + 0.015625s system = 1.390625s CPU (96.0%)
+
+RUN-1004 : used memory is 209 MB, reserved memory is 285 MB, peak memory is 211 MB
+RUN-1002 : start command "report_area -file adda_direct_gate.area"
+RUN-1001 : standard
+***Report Model: adda_direct Device: EG4S20BG256***
+
+IO Statistics
+#IO                        49   out of    188   26.06%
+  #input                   17
+  #output                  32
+  #inout                    0
+
+LUT Statistics
+#Total_luts              1879
+  #lut4                  1580
+  #lut5                   299
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b               0
+
+Utilization Statistics
+#lut                     3359   out of  19600   17.14%
+#reg                     2200   out of  19600   11.22%
+#bram                      15   out of     64   23.44%
+  #bram9k                  15
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#dsp                        6   out of     29   20.69%
+#pad                       49   out of    188   26.06%
+  #ireg                    15
+  #oreg                     0
+  #treg                     0
+#pll                        1   out of      4   25.00%
+#gclk                       3   out of     16   18.75%
+
+SYN-1001 : End Stage 2 | Optimize Gate; Time: 10.464114s wall, 9.781250s user + 0.265625s system = 10.046875s CPU (96.0%); Memory(MB): used = 210, reserved = 285, peak = 211;
+
+RUN-1003 : finish command "optimize_gate -packarea adda_direct_gate.area" in  10.492889s wall, 9.812500s user + 0.265625s system = 10.078125s CPU (96.0%)
+
+RUN-1004 : used memory is 210 MB, reserved memory is 285 MB, peak memory is 211 MB
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1001 : Stage 3 | Legalize Phy Inst
+SYN-1011 : Flatten model adda_direct
+SYN-1001 : End Stage 3 | Legalize Phy Inst; Time: 0.036874s wall, 0.031250s user + 0.000000s system = 0.031250s CPU (84.7%); Memory(MB): used = 210, reserved = 285, peak = 211;
+
+RUN-1002 : start command "update_timing"
+RUN-1002 : start command "start_timer"
+RUN-1002 : start command "report_timing_status -file adda_direct_gate.ts"
+RUN-1002 : start command "report_timing_summary -file adda_direct_gate.timing"
+RUN-1002 : start command "flow_status -file flow.status"
+Location         : C:\Users\rgly\Desktop\FPGA\2026FPGA_20261016\6_phase_shift_VGA\src\adda_direct_Runs\syn_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : adda_direct
+Device           : EG4S20BG256
+Speed            : NA
+
+Timing Mode      : basic
+Setup            : WNS  1798ps  TNS        0ps  NUM_FEPS     0
+Hold             : WNS   471ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+RUN-1001 : Flow Statistics:
+RUN-1001 : --------------------------------------------------------------------------------------------------
+RUN-1001 :      command     |  #calls  |  wall time  |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+RUN-1001 : --------------------------------------------------------------------------------------------------
+RUN-1001 :   optimize_gate  |    1     |  10s(55%)   |    9(52%)     |        210        |        211        
+RUN-1001 :   optimize_rtl   |    1     |   8s(44%)   |    8(47%)     |        178        |        187        
+RUN-1001 :   import_device  |    1     |   0s(0%)    |     0(0%)     |        80         |        80         
+RUN-1001 :     read_adc     |    1     |   0s(0%)    |     0(0%)     |        128        |        128        
+RUN-1001 : --------------------------------------------------------------------------------------------------
+RUN-1001 :       total      |    4     |     18s     |      17       |        210        |        211        
+RUN-1001 : --------------------------------------------------------------------------------------------------
+RUN-1002 : start command "export_db adda_direct_gate.db"
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported packer
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported ATMR Setting
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported ChipWatcher
+RUN-1002 : start command "export_flow_status -s read_design -e opt_gate"
+RUN-1002 : start command "flow_status"
+
+Location         : C:\Users\rgly\Desktop\FPGA\2026FPGA_20261016\6_phase_shift_VGA\src\adda_direct_Runs\syn_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : adda_direct
+Device           : EG4S20BG256
+Speed            : NA
+
+Timing Mode      : basic
+Setup            : WNS  1798ps  TNS        0ps  NUM_FEPS     0
+Hold             : WNS   471ps  TNS        0ps  NUM_FEPS     0
+
+RUN-1001 : Flow Statistics:
+RUN-1001 : --------------------------------------------------------------------------------------------------
+RUN-1001 :      command     |  #calls  |  wall time  |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+RUN-1001 : --------------------------------------------------------------------------------------------------
+RUN-1001 :   optimize_gate  |    1     |  10s(55%)   |    9(52%)     |        210        |        211        
+RUN-1001 :   optimize_rtl   |    1     |   8s(44%)   |    8(47%)     |        178        |        187        
+RUN-1001 :   import_device  |    1     |   0s(0%)    |     0(0%)     |        80         |        80         
+RUN-1001 :     read_adc     |    1     |   0s(0%)    |     0(0%)     |        128        |        128        
+RUN-1001 : --------------------------------------------------------------------------------------------------
+RUN-1001 :       total      |    4     |     18s     |      17       |        210        |        211        
+RUN-1001 : --------------------------------------------------------------------------------------------------

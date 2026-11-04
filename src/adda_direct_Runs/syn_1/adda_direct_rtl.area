@@ -1,0 +1,112 @@
+standard
+***Report Model: adda_direct Device: EG4S20BG256***
+
+IO Statistics
+#IO                        49
+  #input                   17
+  #output                  32
+  #inout                    0
+
+Gate Statistics
+#Basic gates             3812
+  #and                    226
+  #nand                     0
+  #or                     449
+  #nor                      0
+  #xor                      3
+  #xnor                     0
+  #buf                      0
+  #not                    294
+  #bufif1                   0
+  #MX21                   560
+  #FADD                     0
+  #DFF                   2280
+  #LATCH                    0
+#MACRO_ADD                339
+#MACRO_EQ                 135
+#MACRO_MULT                 5
+#MACRO_MUX               1021
+#MACRO_OTHERS              10
+
+Report Hierarchy Area:
++---------------------------------------------------------------------------------------+
+|Instance                            |Module                    |gates  |seq    |macros |
++---------------------------------------------------------------------------------------+
+|top                                 |adda_direct               |1532   |2280   |489    |
+|  u_bufg100                         |BUFG_0                    |0      |0      |1      |
+|  u_bufg25                          |BUFG_0                    |0      |0      |1      |
+|  u_bufg50                          |BUFG_0                    |0      |0      |1      |
+|  u_cap                             |wave_capture              |15     |63     |6      |
+|  u_dpram                           |dpram                     |0      |0      |1      |
+|  u_dpram_in                        |dpram                     |0      |0      |1      |
+|  u_dpram_ot                        |dpram                     |0      |0      |1      |
+|  u_dpram_xy                        |dpram                     |0      |0      |1      |
+|  u_fc                              |freq_counter              |2      |64     |3      |
+|  u_key0                            |key_debounce              |27     |25     |2      |
+|  u_key1                            |key_debounce              |27     |25     |2      |
+|  u_key2                            |key_debounce              |27     |25     |2      |
+|  u_meas                            |measure                   |8      |247    |13     |
+|  u_nco                             |nco                       |81     |1343   |67     |
+|    u_div                           |div_gen_32                |78     |1260   |59     |
+|      divider_top_2e799f05df53_Inst |divider_top_2e799f05df53  |78     |1260   |59     |
+|        Sub_a[0]$u_sub_a            |divider_sub_2e799f05df53  |1      |0      |1      |
+|        Sub_b[10]$u_sub_b           |divider_sub_2e799f05df53  |2      |22     |2      |
+|        Sub_b[11]$u_sub_b           |divider_sub_2e799f05df53  |2      |0      |2      |
+|        Sub_b[12]$u_sub_b           |divider_sub_2e799f05df53  |2      |26     |2      |
+|        Sub_b[13]$u_sub_b           |divider_sub_2e799f05df53  |2      |28     |2      |
+|        Sub_b[14]$u_sub_b           |divider_sub_2e799f05df53  |2      |0      |2      |
+|        Sub_b[15]$u_sub_b           |divider_sub_2e799f05df53  |2      |32     |2      |
+|        Sub_b[16]$u_sub_b           |divider_sub_2e799f05df53  |2      |34     |2      |
+|        Sub_b[17]$u_sub_b           |divider_sub_2e799f05df53  |2      |0      |2      |
+|        Sub_b[18]$u_sub_b           |divider_sub_2e799f05df53  |2      |38     |2      |
+|        Sub_b[19]$u_sub_b           |divider_sub_2e799f05df53  |2      |40     |2      |
+|        Sub_b[1]$u_sub_b            |divider_sub_2e799f05df53  |0      |4      |2      |
+|        Sub_b[20]$u_sub_b           |divider_sub_2e799f05df53  |2      |0      |2      |
+|        Sub_b[21]$u_sub_b           |divider_sub_2e799f05df53  |2      |44     |2      |
+|        Sub_b[22]$u_sub_b           |divider_sub_2e799f05df53  |2      |46     |2      |
+|        Sub_b[23]$u_sub_b           |divider_sub_2e799f05df53  |2      |0      |2      |
+|        Sub_b[24]$u_sub_b           |divider_sub_2e799f05df53  |2      |50     |2      |
+|        Sub_b[25]$u_sub_b           |divider_sub_2e799f05df53  |2      |52     |2      |
+|        Sub_b[26]$u_sub_b           |divider_sub_2e799f05df53  |2      |0      |2      |
+|        Sub_b[27]$u_sub_b           |divider_sub_2e799f05df53  |2      |56     |2      |
+|        Sub_b[28]$u_sub_b           |divider_sub_2e799f05df53  |2      |58     |1      |
+|        Sub_b[29]$u_sub_b           |divider_sub_2e799f05df53  |1      |0      |1      |
+|        Sub_b[2]$u_sub_b            |divider_sub_2e799f05df53  |2      |0      |2      |
+|        Sub_b[30]$u_sub_b           |divider_sub_2e799f05df53  |1      |62     |1      |
+|        Sub_b[31]$u_sub_b           |divider_sub_2e799f05df53  |1      |0      |1      |
+|        Sub_b[3]$u_sub_b            |divider_sub_2e799f05df53  |2      |8      |2      |
+|        Sub_b[4]$u_sub_b            |divider_sub_2e799f05df53  |2      |10     |2      |
+|        Sub_b[5]$u_sub_b            |divider_sub_2e799f05df53  |2      |0      |2      |
+|        Sub_b[6]$u_sub_b            |divider_sub_2e799f05df53  |2      |14     |2      |
+|        Sub_b[7]$u_sub_b            |divider_sub_2e799f05df53  |2      |16     |2      |
+|        Sub_b[8]$u_sub_b            |divider_sub_2e799f05df53  |2      |0      |2      |
+|        Sub_b[9]$u_sub_b            |divider_sub_2e799f05df53  |2      |20     |2      |
+|        [10]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |1      |30     |0      |
+|        [12]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |1      |30     |0      |
+|        [13]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |1      |30     |0      |
+|        [15]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |1      |30     |0      |
+|        [16]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |1      |30     |0      |
+|        [18]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |1      |30     |0      |
+|        [19]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |1      |30     |0      |
+|        [1]$U_DIVISOR_DRAM          |divider_dram_2e799f05df53 |1      |30     |0      |
+|        [21]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |1      |30     |0      |
+|        [22]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |1      |30     |0      |
+|        [24]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |1      |30     |0      |
+|        [25]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |1      |30     |0      |
+|        [27]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |2      |30     |0      |
+|        [28]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |1      |30     |0      |
+|        [3]$U_DIVISOR_DRAM          |divider_dram_2e799f05df53 |1      |30     |0      |
+|        [4]$U_DIVISOR_DRAM          |divider_dram_2e799f05df53 |1      |30     |0      |
+|        [6]$U_DIVISOR_DRAM          |divider_dram_2e799f05df53 |1      |30     |0      |
+|        [7]$U_DIVISOR_DRAM          |divider_dram_2e799f05df53 |1      |30     |0      |
+|        [9]$U_DIVISOR_DRAM          |divider_dram_2e799f05df53 |1      |30     |0      |
+|        [30]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |0      |30     |0      |
+|  u_period                          |period_measure            |1      |64     |1      |
+|  u_pll                             |PL                        |0      |0      |0      |
+|  u_vga                             |vga_ui_p5                 |1287   |127    |363    |
+|    u_scope                         |xy_scope                  |24     |16     |9      |
+|    u_text                          |vga_text_p5               |1184   |73     |315    |
+|    u_timing                        |vga_timing                |4      |20     |7      |
+|  u_wram                            |wave_ram                  |0      |0      |1      |
+|  u_zero_cross                      |zero_cross_det            |2      |2      |2      |
++---------------------------------------------------------------------------------------+

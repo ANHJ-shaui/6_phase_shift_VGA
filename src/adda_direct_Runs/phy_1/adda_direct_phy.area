@@ -1,0 +1,192 @@
+standard
+***Report Model: adda_direct Device: EG4S20BG256***
+
+IO Statistics
+#IO                        49   out of    188   26.06%
+  #input                   17
+  #output                  32
+  #inout                    0
+
+Utilization Statistics
+#lut                     3443   out of  19600   17.57%
+#reg                     2178   out of  19600   11.11%
+#le                      4146
+  #lut only              1968   out of   4146   47.47%
+  #reg only               703   out of   4146   16.96%
+  #lut&reg               1475   out of   4146   35.58%
+#bram                      15   out of     64   23.44%
+  #bram9k                  15
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#dsp                        6   out of     29   20.69%
+#pad                       49   out of    188   26.06%
+  #ireg                    15
+  #oreg                     0
+  #treg                     0
+#pll                        1   out of      4   25.00%
+#gclk                       3   out of     16   18.75%
+
+
+Detailed IO Report
+
+     Name       Direction    Location    IOStandard    IOType    DriveStrength    PullType    PackReg  
+  ad_dat[11]      INPUT        J13        LVCMOS33      PAD           N/A          PULLUP      IREG    
+  ad_dat[10]      INPUT        K12        LVCMOS33      PAD           N/A          PULLUP      IREG    
+  ad_dat[9]       INPUT        L14        LVCMOS33      PAD           N/A          PULLUP      IREG    
+  ad_dat[8]       INPUT        M14        LVCMOS33      PAD           N/A          PULLUP      IREG    
+  ad_dat[7]       INPUT        P11        LVCMOS33      PAD           N/A          PULLUP      IREG    
+  ad_dat[6]       INPUT        L10        LVCMOS33      PAD           N/A          PULLUP      IREG    
+  ad_dat[5]       INPUT        M10        LVCMOS33      PAD           N/A          PULLUP      IREG    
+  ad_dat[4]       INPUT        D16        LVCMOS33      PAD           N/A          PULLUP      IREG    
+  ad_dat[3]       INPUT        E15        LVCMOS33      PAD           N/A          PULLUP      IREG    
+  ad_dat[2]       INPUT        F14        LVCMOS33      PAD           N/A          PULLUP      IREG    
+  ad_dat[1]       INPUT        F15        LVCMOS33      PAD           N/A          PULLUP      IREG    
+  ad_dat[0]       INPUT        G16        LVCMOS33      PAD           N/A          PULLUP      IREG    
+   clk_50m        INPUT         R7        LVCMOS33      PAD           N/A          PULLUP      NONE    
+  key_mode0       INPUT         B2        LVCMOS33      PAD           N/A          PULLUP      IREG    
+  key_mode1       INPUT         B1        LVCMOS33      PAD           N/A          PULLUP      IREG    
+  key_mode2       INPUT         C1        LVCMOS33      PAD           N/A          PULLUP      IREG    
+   reset_n        INPUT         A2        LVCMOS33      PAD           N/A          PULLUP      NONE    
+    ad_clk       OUTPUT        G14        LVCMOS33      PAD            8            NONE       NONE    
+    da_clk       OUTPUT        K15        LVCMOS33      PAD            8            NONE       NONE    
+  da_dat[11]     OUTPUT        J16        LVCMOS33      PAD            8            NONE       NONE    
+  da_dat[10]     OUTPUT        H15        LVCMOS33      PAD            8            NONE       NONE    
+  da_dat[9]      OUTPUT        H16        LVCMOS33      PAD            8            NONE       NONE    
+  da_dat[8]      OUTPUT        K16        LVCMOS33      PAD            8            NONE       NONE    
+  da_dat[7]      OUTPUT        M16        LVCMOS33      PAD            8            NONE       NONE    
+  da_dat[6]      OUTPUT        M15        LVCMOS33      PAD            8            NONE       NONE    
+  da_dat[5]      OUTPUT        L16        LVCMOS33      PAD            8            NONE       NONE    
+  da_dat[4]      OUTPUT        N16        LVCMOS33      PAD            8            NONE       NONE    
+  da_dat[3]      OUTPUT        N14        LVCMOS33      PAD            8            NONE       NONE    
+  da_dat[2]      OUTPUT        P16        LVCMOS33      PAD            8            NONE       NONE    
+  da_dat[1]      OUTPUT        P15        LVCMOS33      PAD            8            NONE       NONE    
+  da_dat[0]      OUTPUT        R15        LVCMOS33      PAD            8            NONE       NONE    
+  led_mode0      OUTPUT         A3        LVCMOS33      PAD            8            NONE       NONE    
+  led_mode1      OUTPUT        C10        LVCMOS33      PAD            8            NONE       NONE    
+  led_mode2      OUTPUT        B12        LVCMOS33      PAD            8            NONE       NONE    
+   lock_led      OUTPUT         A4        LVCMOS33      PAD            8            NONE       NONE    
+   vga_b[3]      OUTPUT         D5        LVCMOS33      PAD            8            NONE       NONE    
+   vga_b[2]      OUTPUT         D6        LVCMOS33      PAD            8            NONE       NONE    
+   vga_b[1]      OUTPUT         E6        LVCMOS33      PAD            8            NONE       NONE    
+   vga_b[0]      OUTPUT         F6        LVCMOS33      PAD            8            NONE       NONE    
+   vga_g[3]      OUTPUT         N6        LVCMOS33      PAD            8            NONE       NONE    
+   vga_g[2]      OUTPUT         N5        LVCMOS33      PAD            8            NONE       NONE    
+   vga_g[1]      OUTPUT         P5        LVCMOS33      PAD            8            NONE       NONE    
+   vga_g[0]      OUTPUT         T5        LVCMOS33      PAD            8            NONE       NONE    
+    vga_hs       OUTPUT         E7        LVCMOS33      PAD            8            NONE       NONE    
+   vga_r[3]      OUTPUT        E13        LVCMOS33      PAD            8            NONE       NONE    
+   vga_r[2]      OUTPUT         L8        LVCMOS33      PAD            8            NONE       NONE    
+   vga_r[1]      OUTPUT         L7        LVCMOS33      PAD            8            NONE       NONE    
+   vga_r[0]      OUTPUT         R5        LVCMOS33      PAD            8            NONE       NONE    
+    vga_vs       OUTPUT         F7        LVCMOS33      PAD            8            NONE       NONE    
+
+Report Clock Domain Luts:
+
+------------------------------------------------------------------------------------------------------------------
+  Index   |  Name         |  Frequency   |  LUT As Logic   |  LUT As Shifter   |  LUT As Dram   |  BRAM   |  DSP
+------------------------------------------------------------------------------------------------------------------
+  #1      |  DeriveClock  |  50MHz       |  1581           |  0                |  0             |  15     |  6
+------------------------------------------------------------------------------------------------------------------
+
+Clock Resource Statistics
+Index     ClockNet         Type               DriverType         Driver                  Fanout
+#1        u_bufg100/i      Global             pll                u_pll/pll_inst.clkc0    1055
+#2        u_bufg25/i       Global             pll                u_pll/pll_inst.clkc2    160
+#3        u_bufg50/i       Global             pll                u_pll/pll_inst.clkc1    21
+#4        clk_50m_dup_1    GeneralRouting     io                 clk_50m_syn_2.di        1
+
+Report Hierarchy Area:
++---------------------------------------------------------------------------------------------------------------------+
+|Instance                            |Module                    |le      |lut     |ripple  |seq     |bram    |dsp     |
++---------------------------------------------------------------------------------------------------------------------+
+|top                                 |adda_direct               |4146    |2703    |740     |2193    |15      |6       |
+|  u_bufg100                         |BUFG_0                    |0       |0       |0       |0       |0       |0       |
+|  u_bufg25                          |BUFG_0                    |0       |0       |0       |0       |0       |0       |
+|  u_bufg50                          |BUFG_0                    |0       |0       |0       |0       |0       |0       |
+|  u_cap                             |wave_capture              |92      |60      |20      |62      |0       |0       |
+|  u_dpram                           |dpram                     |0       |0       |0       |0       |1       |0       |
+|  u_dpram_in                        |dpram                     |0       |0       |0       |0       |1       |0       |
+|  u_dpram_ot                        |dpram                     |0       |0       |0       |0       |1       |0       |
+|  u_dpram_xy                        |dpram                     |0       |0       |0       |0       |1       |0       |
+|  u_fc                              |freq_counter              |86      |48      |14      |59      |0       |0       |
+|  u_key0                            |key_debounce              |52      |37      |14      |24      |0       |0       |
+|  u_key1                            |key_debounce              |54      |38      |14      |26      |0       |0       |
+|  u_key2                            |key_debounce              |48      |33      |14      |20      |0       |0       |
+|  u_meas                            |measure                   |276     |193     |59      |161     |0       |4       |
+|  u_nco                             |nco                       |1736    |1014    |234     |1300    |0       |2       |
+|    u_div                           |div_gen_32                |1554    |923     |180     |1210    |0       |0       |
+|      divider_top_2e799f05df53_Inst |divider_top_2e799f05df53  |1554    |923     |180     |1210    |0       |0       |
+|        Sub_b[10]$u_sub_b           |divider_sub_2e799f05df53  |39      |25      |7       |27      |0       |0       |
+|        Sub_b[11]$u_sub_b           |divider_sub_2e799f05df53  |14      |7       |7       |2       |0       |0       |
+|        Sub_b[12]$u_sub_b           |divider_sub_2e799f05df53  |48      |28      |4       |42      |0       |0       |
+|        Sub_b[13]$u_sub_b           |divider_sub_2e799f05df53  |37      |16      |4       |31      |0       |0       |
+|        Sub_b[14]$u_sub_b           |divider_sub_2e799f05df53  |10      |5       |5       |2       |0       |0       |
+|        Sub_b[15]$u_sub_b           |divider_sub_2e799f05df53  |55      |36      |5       |39      |0       |0       |
+|        Sub_b[16]$u_sub_b           |divider_sub_2e799f05df53  |41      |26      |5       |33      |0       |0       |
+|        Sub_b[17]$u_sub_b           |divider_sub_2e799f05df53  |10      |5       |5       |2       |0       |0       |
+|        Sub_b[18]$u_sub_b           |divider_sub_2e799f05df53  |57      |41      |6       |43      |0       |0       |
+|        Sub_b[19]$u_sub_b           |divider_sub_2e799f05df53  |50      |32      |6       |40      |0       |0       |
+|        Sub_b[1]$u_sub_b            |divider_sub_2e799f05df53  |6       |6       |0       |5       |0       |0       |
+|        Sub_b[20]$u_sub_b           |divider_sub_2e799f05df53  |12      |6       |6       |2       |0       |0       |
+|        Sub_b[21]$u_sub_b           |divider_sub_2e799f05df53  |60      |37      |6       |50      |0       |0       |
+|        Sub_b[22]$u_sub_b           |divider_sub_2e799f05df53  |58      |31      |7       |46      |0       |0       |
+|        Sub_b[23]$u_sub_b           |divider_sub_2e799f05df53  |14      |7       |7       |2       |0       |0       |
+|        Sub_b[24]$u_sub_b           |divider_sub_2e799f05df53  |68      |35      |7       |55      |0       |0       |
+|        Sub_b[25]$u_sub_b           |divider_sub_2e799f05df53  |73      |34      |7       |61      |0       |0       |
+|        Sub_b[26]$u_sub_b           |divider_sub_2e799f05df53  |16      |8       |8       |2       |0       |0       |
+|        Sub_b[27]$u_sub_b           |divider_sub_2e799f05df53  |64      |38      |8       |50      |0       |0       |
+|        Sub_b[28]$u_sub_b           |divider_sub_2e799f05df53  |71      |39      |8       |55      |0       |0       |
+|        Sub_b[29]$u_sub_b           |divider_sub_2e799f05df53  |16      |8       |8       |2       |0       |0       |
+|        Sub_b[2]$u_sub_b            |divider_sub_2e799f05df53  |6       |3       |3       |1       |0       |0       |
+|        Sub_b[30]$u_sub_b           |divider_sub_2e799f05df53  |98      |70      |9       |61      |0       |0       |
+|        Sub_b[31]$u_sub_b           |divider_sub_2e799f05df53  |18      |9       |9       |2       |0       |0       |
+|        Sub_b[3]$u_sub_b            |divider_sub_2e799f05df53  |16      |13      |3       |10      |0       |0       |
+|        Sub_b[4]$u_sub_b            |divider_sub_2e799f05df53  |18      |12      |4       |12      |0       |0       |
+|        Sub_b[5]$u_sub_b            |divider_sub_2e799f05df53  |8       |4       |4       |2       |0       |0       |
+|        Sub_b[6]$u_sub_b            |divider_sub_2e799f05df53  |30      |24      |5       |18      |0       |0       |
+|        Sub_b[7]$u_sub_b            |divider_sub_2e799f05df53  |27      |13      |5       |19      |0       |0       |
+|        Sub_b[8]$u_sub_b            |divider_sub_2e799f05df53  |12      |6       |6       |2       |0       |0       |
+|        Sub_b[9]$u_sub_b            |divider_sub_2e799f05df53  |34      |22      |6       |24      |0       |0       |
+|        [10]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |20      |6       |0       |20      |0       |0       |
+|        [12]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |21      |7       |0       |21      |0       |0       |
+|        [13]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |19      |5       |0       |19      |0       |0       |
+|        [15]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |21      |14      |0       |21      |0       |0       |
+|        [16]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |20      |16      |0       |20      |0       |0       |
+|        [18]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |23      |21      |0       |23      |0       |0       |
+|        [19]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |24      |18      |0       |24      |0       |0       |
+|        [1]$U_DIVISOR_DRAM          |divider_dram_2e799f05df53 |30      |30      |0       |30      |0       |0       |
+|        [21]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |19      |11      |0       |19      |0       |0       |
+|        [22]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |27      |12      |0       |27      |0       |0       |
+|        [24]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |20      |20      |0       |20      |0       |0       |
+|        [25]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |23      |0       |0       |23      |0       |0       |
+|        [27]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |30      |28      |0       |30      |0       |0       |
+|        [28]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |25      |4       |0       |25      |0       |0       |
+|        [30]$U_DIVISOR_DRAM         |divider_dram_2e799f05df53 |27      |4       |0       |27      |0       |0       |
+|        [3]$U_DIVISOR_DRAM          |divider_dram_2e799f05df53 |15      |11      |0       |15      |0       |0       |
+|        [4]$U_DIVISOR_DRAM          |divider_dram_2e799f05df53 |32      |4       |0       |32      |0       |0       |
+|        [6]$U_DIVISOR_DRAM          |divider_dram_2e799f05df53 |22      |18      |0       |22      |0       |0       |
+|        [7]$U_DIVISOR_DRAM          |divider_dram_2e799f05df53 |27      |25      |0       |27      |0       |0       |
+|        [9]$U_DIVISOR_DRAM          |divider_dram_2e799f05df53 |23      |23      |0       |23      |0       |0       |
+|  u_period                          |period_measure            |74      |65      |9       |57      |0       |0       |
+|  u_pll                             |PL                        |1       |1       |0       |0       |0       |0       |
+|  u_vga                             |vga_ui_p5                 |1128    |897     |231     |174     |10      |0       |
+|    u_scope                         |xy_scope                  |59      |44      |15      |16      |8       |0       |
+|    u_text                          |vga_text_p5               |819     |715     |104     |96      |2       |0       |
+|    u_timing                        |vga_timing                |62      |35      |27      |20      |0       |0       |
+|  u_wram                            |wave_ram                  |6       |6       |0       |1       |1       |0       |
+|  u_zero_cross                      |zero_cross_det            |35      |19      |14      |9       |0       |0       |
++---------------------------------------------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout    Nets  
+    #1         1       2886  
+    #2         2       1290  
+    #3         3       423   
+    #4         4       138   
+    #5        5-10     317   
+    #6       11-50     106   
+    #7       51-100     6    
+    #8        >500      1    
+  Average     2.40           

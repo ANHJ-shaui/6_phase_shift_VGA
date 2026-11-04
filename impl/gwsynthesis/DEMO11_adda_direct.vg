@@ -1,0 +1,246 @@
+//
+//Written by GowinSynthesis
+//Product Version "V1.9.9 Beta-2"
+//Fri Jul 21 13:05:46 2023
+
+//Source file index table:
+//file0 "\C:/Users/Administrator/Desktop/GW2A18/DEMO/MODU_DEMO/DEMO11_adda_direct/src/adda_direct.v"
+`timescale 100 ps/100 ps
+module adda_direct (
+  clk_50m,
+  reset_n,
+  ad_dat,
+  da_dat,
+  da_clk,
+  ad_clk,
+  CLK_1k,
+  clk_out
+)
+;
+input clk_50m;
+input reset_n;
+input [11:0] ad_dat;
+output [11:0] da_dat;
+output da_clk;
+output ad_clk;
+input CLK_1k;
+output clk_out;
+wire clk_50m_d;
+wire reset_n_d;
+wire clk_out_d;
+wire da_clk_d_5;
+wire n9_6;
+wire [11:0] ad_dat_d;
+wire [11:0] da_dat_d;
+wire VCC;
+wire GND;
+  IBUF clk_50m_ibuf (
+    .O(clk_50m_d),
+    .I(clk_50m) 
+);
+  IBUF reset_n_ibuf (
+    .O(reset_n_d),
+    .I(reset_n) 
+);
+  IBUF ad_dat_0_ibuf (
+    .O(ad_dat_d[0]),
+    .I(ad_dat[0]) 
+);
+  IBUF ad_dat_1_ibuf (
+    .O(ad_dat_d[1]),
+    .I(ad_dat[1]) 
+);
+  IBUF ad_dat_2_ibuf (
+    .O(ad_dat_d[2]),
+    .I(ad_dat[2]) 
+);
+  IBUF ad_dat_3_ibuf (
+    .O(ad_dat_d[3]),
+    .I(ad_dat[3]) 
+);
+  IBUF ad_dat_4_ibuf (
+    .O(ad_dat_d[4]),
+    .I(ad_dat[4]) 
+);
+  IBUF ad_dat_5_ibuf (
+    .O(ad_dat_d[5]),
+    .I(ad_dat[5]) 
+);
+  IBUF ad_dat_6_ibuf (
+    .O(ad_dat_d[6]),
+    .I(ad_dat[6]) 
+);
+  IBUF ad_dat_7_ibuf (
+    .O(ad_dat_d[7]),
+    .I(ad_dat[7]) 
+);
+  IBUF ad_dat_8_ibuf (
+    .O(ad_dat_d[8]),
+    .I(ad_dat[8]) 
+);
+  IBUF ad_dat_9_ibuf (
+    .O(ad_dat_d[9]),
+    .I(ad_dat[9]) 
+);
+  IBUF ad_dat_10_ibuf (
+    .O(ad_dat_d[10]),
+    .I(ad_dat[10]) 
+);
+  IBUF ad_dat_11_ibuf (
+    .O(ad_dat_d[11]),
+    .I(ad_dat[11]) 
+);
+  IBUF CLK_1k_ibuf (
+    .O(clk_out_d),
+    .I(CLK_1k) 
+);
+  OBUF da_dat_0_obuf (
+    .O(da_dat[0]),
+    .I(da_dat_d[0]) 
+);
+  OBUF da_dat_1_obuf (
+    .O(da_dat[1]),
+    .I(da_dat_d[1]) 
+);
+  OBUF da_dat_2_obuf (
+    .O(da_dat[2]),
+    .I(da_dat_d[2]) 
+);
+  OBUF da_dat_3_obuf (
+    .O(da_dat[3]),
+    .I(da_dat_d[3]) 
+);
+  OBUF da_dat_4_obuf (
+    .O(da_dat[4]),
+    .I(da_dat_d[4]) 
+);
+  OBUF da_dat_5_obuf (
+    .O(da_dat[5]),
+    .I(da_dat_d[5]) 
+);
+  OBUF da_dat_6_obuf (
+    .O(da_dat[6]),
+    .I(da_dat_d[6]) 
+);
+  OBUF da_dat_7_obuf (
+    .O(da_dat[7]),
+    .I(da_dat_d[7]) 
+);
+  OBUF da_dat_8_obuf (
+    .O(da_dat[8]),
+    .I(da_dat_d[8]) 
+);
+  OBUF da_dat_9_obuf (
+    .O(da_dat[9]),
+    .I(da_dat_d[9]) 
+);
+  OBUF da_dat_10_obuf (
+    .O(da_dat[10]),
+    .I(da_dat_d[10]) 
+);
+  OBUF da_dat_11_obuf (
+    .O(da_dat[11]),
+    .I(da_dat_d[11]) 
+);
+  OBUF da_clk_obuf (
+    .O(da_clk),
+    .I(da_clk_d_5) 
+);
+  OBUF ad_clk_obuf (
+    .O(ad_clk),
+    .I(da_clk_d_5) 
+);
+  OBUF clk_out_obuf (
+    .O(clk_out),
+    .I(clk_out_d) 
+);
+  DFFC da_dat_10_s1 (
+    .Q(da_dat_d[10]),
+    .D(ad_dat_d[10]),
+    .CLK(clk_50m_d),
+    .CLEAR(n9_6) 
+);
+  DFFC da_dat_9_s1 (
+    .Q(da_dat_d[9]),
+    .D(ad_dat_d[9]),
+    .CLK(clk_50m_d),
+    .CLEAR(n9_6) 
+);
+  DFFC da_dat_8_s1 (
+    .Q(da_dat_d[8]),
+    .D(ad_dat_d[8]),
+    .CLK(clk_50m_d),
+    .CLEAR(n9_6) 
+);
+  DFFC da_dat_7_s1 (
+    .Q(da_dat_d[7]),
+    .D(ad_dat_d[7]),
+    .CLK(clk_50m_d),
+    .CLEAR(n9_6) 
+);
+  DFFC da_dat_6_s1 (
+    .Q(da_dat_d[6]),
+    .D(ad_dat_d[6]),
+    .CLK(clk_50m_d),
+    .CLEAR(n9_6) 
+);
+  DFFC da_dat_5_s1 (
+    .Q(da_dat_d[5]),
+    .D(ad_dat_d[5]),
+    .CLK(clk_50m_d),
+    .CLEAR(n9_6) 
+);
+  DFFC da_dat_4_s1 (
+    .Q(da_dat_d[4]),
+    .D(ad_dat_d[4]),
+    .CLK(clk_50m_d),
+    .CLEAR(n9_6) 
+);
+  DFFC da_dat_3_s1 (
+    .Q(da_dat_d[3]),
+    .D(ad_dat_d[3]),
+    .CLK(clk_50m_d),
+    .CLEAR(n9_6) 
+);
+  DFFC da_dat_2_s1 (
+    .Q(da_dat_d[2]),
+    .D(ad_dat_d[2]),
+    .CLK(clk_50m_d),
+    .CLEAR(n9_6) 
+);
+  DFFC da_dat_1_s1 (
+    .Q(da_dat_d[1]),
+    .D(ad_dat_d[1]),
+    .CLK(clk_50m_d),
+    .CLEAR(n9_6) 
+);
+  DFFC da_dat_0_s1 (
+    .Q(da_dat_d[0]),
+    .D(ad_dat_d[0]),
+    .CLK(clk_50m_d),
+    .CLEAR(n9_6) 
+);
+  DFFC da_dat_11_s2 (
+    .Q(da_dat_d[11]),
+    .D(ad_dat_d[11]),
+    .CLK(clk_50m_d),
+    .CLEAR(n9_6) 
+);
+  INV da_clk_d_s0 (
+    .O(da_clk_d_5),
+    .I(clk_50m_d) 
+);
+  INV n9_s2 (
+    .O(n9_6),
+    .I(reset_n_d) 
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* adda_direct */

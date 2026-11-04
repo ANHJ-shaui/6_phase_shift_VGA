@@ -1,0 +1,12 @@
+-d C:\Users\Administrator\Desktop\GW2A18\DEMO\MODU_DEMO\DEMO11_adda_direct\impl\gwsynthesis\DEMO11_adda_direct.vg
+-p GW2A-18-PBGA256-8
+-pn GW2A-LV18PG256C8/I7
+-cst C:\Users\Administrator\Desktop\GW2A18\DEMO\MODU_DEMO\DEMO11_adda_direct\src\DEMO11_adda_direct.cst
+-cfg C:\Users\Administrator\Desktop\GW2A18\DEMO\MODU_DEMO\DEMO11_adda_direct\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23

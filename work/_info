@@ -1,0 +1,362 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrator\Desktop\2026FPGA\5_phase_shift
+vadda_direct
+Z1 I3JAAbgA`VTDgI8:`=jB^K2
+Z2 VTG:4:E]KV4Jm>H@ThM]_M1
+Z3 dC:\Users\Administrator\Desktop\2026FPGA\5_phase_shift
+Z4 w1790738872
+Z5 8C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/adda_direct.v
+Z6 FC:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/adda_direct.v
+L0 9
+Z7 OV;L;10.1d;51
+r1
+31
+o-O0
+Z8 !s100 m@;L7m9I[biU1C1_<YI2J2
+Z9 !s108 1790739802.308000
+Z10 !s107 C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/adda_direct.v|
+Z11 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/adda_direct.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vadda_direct_tb
+Z12 IQKmzi;3`]CTZX;ZJNUoP73
+Z13 V[`gJe4EM<TZX2kRPTfX5F2
+R3
+Z14 w1790739780
+Z15 8C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/adda_direct_tb.v
+Z16 FC:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/adda_direct_tb.v
+L0 3
+R7
+r1
+31
+o-O0
+!i10b 1
+Z17 !s100 5`S6QUJm1m6fI5?GIMW<90
+!s85 0
+Z18 !s108 1790739802.364000
+Z19 !s107 C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/adda_direct_tb.v|
+Z20 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/adda_direct_tb.v|
+!s101 -O0
+vBUFG_0
+Z21 IeB8;B6C?m@j]03=V5QDb<1
+Z22 VCYQ8Oe3IR`5l4nfX]ElcQ0
+R3
+Z23 w1790576998
+Z24 8C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/al_ip/BUFG_0.v
+Z25 FC:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/al_ip/BUFG_0.v
+L0 14
+R7
+r1
+31
+o-O0
+Z26 n@b@u@f@g_0
+Z27 !s100 0;6MWBd>ARC0RoBR<Y:g@2
+Z28 !s108 1790739802.025000
+Z29 !s107 C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/al_ip/BUFG_0.v|
+Z30 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/al_ip/BUFG_0.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdiv_gen_32
+Z31 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z32 IQDP9M1BU:RQCiof_5YUlQ3
+Z33 VRWfNKkL[Zbf@24LbX4z>n2
+S1
+R3
+Z34 w1790645237
+Z35 8C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/al_ip/div_gen_32/div_gen_32.sv
+Z36 FC:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/al_ip/div_gen_32/div_gen_32.sv
+L0 10
+R7
+r1
+31
+Z37 o-sv -O0
+Z38 !s92 -sv +incdir+C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/al_ip/div_gen_32/RTL/include -O0
+Z39 !s100 >ZVI`oelJ`I@Yehi2MOjI2
+Z40 !s105 div_gen_32_sv_unit
+Z41 !s108 1790739801.906000
+Z42 !s107 C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/al_ip/div_gen_32/div_gen_32.sv|
+Z43 !s90 -reportprogress|300|-sv|+incdir+C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/al_ip/div_gen_32/RTL/include|C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/al_ip/div_gen_32/div_gen_32.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vEkDFh3b4vlvfxXF2muvgZGgwv0ysZlKUk0j/J6C/s9o=
+R31
+Z44 I<:8afa>S_SVLTPUOzkOEE3
+Z45 Vhm<C]RfS[56H0c[@UP?gL1
+Z46 !s105 divider_top_2e799f05df53_sv_unit
+S1
+d.
+Z47 Fnofile
+Z48 L0 1147
+R7
+r1
+31
+Z49 !s108 1790739800.674000
+Z50 !s107 C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv|
+Z51 !s90 -reportprogress|300|-sv|+incdir+C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/al_ip/div_gen_32/RTL/include|C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv|
+R37
+R38
+Z52 n6e47be3
+Z53 !s100 @PZEDQB6I6OiLP8i?`4<k3
+!i10b 0
+!i8a 1943979184
+!s85 0
+!s101 -O0
+vtI9vwFXTP/n76q2HpDCyMGBn5WHHYKwyw3C9apSmbRiHyy5rCHbf0HprYDOJ8U7e
+R31
+Z54 IN1nU`SiW5nfH_VeKdhh=a0
+Z55 VOWOEnZjBEOZbaD6o9=jZ]0
+R46
+S1
+d.
+R47
+Z56 L0 627
+R7
+r1
+31
+R49
+R50
+R51
+R37
+R38
+Z57 n6a2acf3
+Z58 !s100 jo[@hSoe5JNeZE2B8^oAI0
+!i10b 0
+!i8a 1943979184
+!s85 0
+!s101 -O0
+vRol7EZuAbCookjagvfMWHQwal00BCYAvxOPmuzhBJPFHRJylzudZAdJBzQXuek1C
+R31
+Z59 IR@G6eo[R6hMFPo`zR1bkW2
+Z60 V?B:4[<gnVc>HlS?iTTKhL3
+R46
+S1
+d.
+R47
+Z61 L0 776
+R7
+r1
+31
+R49
+R50
+R51
+R37
+R38
+Z62 n112e9e3
+Z63 !s100 ;>KICVD0KU3F>@BKjo_3S3
+!i10b 0
+!i8a 1943979184
+!s85 0
+!s101 -O0
+vC8vaAhj+Xk8R+ip58B6Zp8xrd4ymu/aEdEWCWmWpiM4=
+R31
+Z64 I2GXRIdhX3gi0cWPOHaNk=3
+Z65 VA838=;iNAFNlf:ETjWV_I0
+R46
+S1
+d.
+R47
+Z66 L0 1017
+R7
+r1
+31
+R49
+R50
+R51
+R37
+R38
+Z67 n58bbf63
+Z68 !s100 9SK6>hBV:EoFHU>i6FEIz1
+!i10b 0
+!i8a 1943979184
+!s85 0
+!s101 -O0
+vLA6dUoose62c5h53IdoxoN8W6yZpN6vfi5sqdTB0p8Y=
+R31
+Z69 IP`KOR:KZDJQoFmSAd5ii@3
+Z70 V4]z;a1F1IB=:Q?>:Gazh;3
+R46
+S1
+d.
+R47
+Z71 L0 1250
+R7
+r1
+31
+R49
+R50
+R51
+R37
+R38
+Z72 n6d60dd3
+Z73 !s100 f@>JDF1eJNHzQ4oH3W>WM2
+!i10b 0
+!i8a 1943979184
+!s85 0
+!s101 -O0
+vi3bMrB7Dlt0Gm28TWwl6oPYgORTYxQq107DM92d3fGE=
+R31
+Z74 I_>K30oA2lBY^:R>KEff;o2
+Z75 VOk=9BSBEfJ?:1dNiRc>L10
+R46
+S1
+d.
+R47
+Z76 L0 900
+R7
+r1
+31
+R49
+R50
+R51
+R37
+R38
+Z77 n1656193
+Z78 !s100 Z<`[[0O6<=LKT[>hD0:7G3
+!i10b 0
+!i8a 1943979184
+!s85 0
+!s101 -O0
+vdivider_top_2e799f05df53
+R31
+Z79 I72YYoLi_T^2H<z2XZ]4UU0
+Z80 VTZ6@<hhJNoO`CJF]RE@jW1
+R46
+S1
+R3
+Z81 w1790645238
+Z82 8C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv
+Z83 FC:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/al_ip/div_gen_32/RTL/divider_top_2e799f05df53.sv
+L0 3
+R7
+r1
+31
+R49
+R50
+R51
+R37
+R38
+Z84 !s100 5@ULN3TeE]FEDlNKm?Ja;3
+!i10b 1
+!s85 0
+!s101 -O0
+vdpram
+Z85 I4474nNiRgb@8fdnV9c`RX0
+Z86 VXbdK7DJ5ak?edV13h<llM0
+R3
+Z87 w1790665580
+Z88 8C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/dpram.v
+Z89 FC:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/dpram.v
+L0 1
+R7
+r1
+31
+o-O0
+Z90 !s100 ae4n4BLFaOAdhM1]mN8]C0
+Z91 !s108 1790739802.249000
+Z92 !s107 C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/dpram.v|
+Z93 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/dpram.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vkey_debounce
+!i10b 1
+!s100 bm2eS>dm8N0JcbzCZO5eH0
+IQ=nkcFdSSZjz4D;18TgMN0
+VBBCIHfOa=4mmXO^<@M<co1
+R3
+w1790738979
+8C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/key_debounce.v
+FC:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/key_debounce.v
+L0 5
+R7
+r1
+!s85 0
+31
+!s108 1790739802.433000
+!s107 C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/key_debounce.v|
+!s90 -reportprogress|300|C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/key_debounce.v|
+!s101 -O0
+o-O0
+vnco
+Z94 I3S;VCeF5Ho^9fU9=ik>LZ3
+Z95 VMKK[gnzZSDUzIF]a4oWG13
+R3
+Z96 w1790731693
+Z97 8C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/nco.v
+Z98 FC:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/nco.v
+L0 1
+R7
+r1
+31
+o-O0
+Z99 !s100 VcOn7Nk^eFAjc_?M6Z2jF3
+Z100 !s108 1790739802.194000
+Z101 !s107 C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/nco.v|
+Z102 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/nco.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vperiod_measure
+Z103 IzIM;jViD:WPHEY?3lN4<W2
+Z104 Vd[f=W^GTLhIOR2FgoT7Zi2
+R3
+Z105 w1790579241
+Z106 8C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/period_measure.v
+Z107 FC:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/period_measure.v
+L0 1
+R7
+r1
+31
+o-O0
+Z108 !s100 zO56Ln=Hc_AT_C9f4YdMn3
+Z109 !s108 1790739802.138000
+Z110 !s107 C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/period_measure.v|
+Z111 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/period_measure.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vPL
+Z112 IZf4>j0oTZn5:V0<XKTM9O1
+Z113 V]XelzojEAdN3FonOJIODd1
+R3
+Z114 w1790576941
+Z115 8C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/al_ip/PL.v
+Z116 FC:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/al_ip/PL.v
+L0 24
+R7
+r1
+31
+o-O0
+n@p@l
+Z117 !s100 d4_c`Z4nl7De9>AIjIf>`3
+Z118 !s108 1790739801.969000
+Z119 !s107 C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/al_ip/PL.v|
+Z120 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/al_ip/PL.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vzero_cross_det
+Z121 I<1OjJ`?c93gJa=hWF>;KJ2
+Z122 V2A9XnU:G2JlYP2h=C6?6>2
+R3
+Z123 w1790575986
+Z124 8C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/zero_cross_det.v
+Z125 FC:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/zero_cross_det.v
+L0 1
+R7
+r1
+31
+o-O0
+Z126 !s100 5<<Jo2MJ3I^AWWI7oYoji0
+Z127 !s108 1790739802.083000
+Z128 !s107 C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/zero_cross_det.v|
+Z129 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/2026FPGA/5_phase_shift/src/zero_cross_det.v|
+!i10b 1
+!s85 0
+!s101 -O0

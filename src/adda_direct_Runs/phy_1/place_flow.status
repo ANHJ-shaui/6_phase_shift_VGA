@@ -1,0 +1,21 @@
+Location         : C:\Users\rgly\Desktop\FPGA\2026FPGA_20261016\6_phase_shift_VGA\src\adda_direct_Runs\phy_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : adda_direct
+Device           : EG4S20BG256
+Speed            : NA
+
+Timing Mode      : manhattan
+Setup            : WNS  8861ps  TNS        0ps  NUM_FEPS     0
+Hold             : WNS   159ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+--------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time  |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+--------------------------------------------------------------------------------------------------
+      place      |    1     |  19s(100%)  |   28(100%)    |        210        |        210        
+    import_db    |    1     |   0s(0%)    |     0(0%)     |        131        |        131        
+  import_device  |    1     |   0s(0%)    |     0(0%)     |        82         |        82         
+--------------------------------------------------------------------------------------------------
+      total      |    3     |     19s     |      28       |        210        |        210        
+--------------------------------------------------------------------------------------------------

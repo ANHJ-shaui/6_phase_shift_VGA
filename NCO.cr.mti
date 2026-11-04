@@ -1,0 +1,59 @@
+C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/div_gen_32/RTL/include/define.v {1 {vlog -work work C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/div_gen_32/RTL/include/define.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+
+} {} {}} C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/div_gen_32/div_gen_32.sv {1 {vlog -work work -sv C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/div_gen_32/div_gen_32.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module div_gen_32
+
+Top level modules:
+	div_gen_32
+
+} {} {}} C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/BUFG_0.v {1 {vlog -work work C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/BUFG_0.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module BUFG_0
+
+Top level modules:
+	BUFG_0
+
+} {} {}} C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_pll.v {1 {vlog -work work C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_pll.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module EG_PHY_PLL
+-- Compiling module prediv_mux
+-- Compiling module eg_dphase_sel
+-- Compiling module eg_clko_premux
+-- Compiling module eg_clko_ctrl
+-- Compiling module eg_pll_div128
+-- Compiling module eg_pll_div2
+
+Top level modules:
+	EG_PHY_PLL
+
+} {} {}} C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/dpram.v.v {1 {vlog -work work C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/dpram.v.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dpram
+
+Top level modules:
+	dpram
+
+} {} {}} C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/period_measure.v {1 {vlog -work work C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/period_measure.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module period_measure
+
+Top level modules:
+	period_measure
+
+} {} {}} C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/PL.v {1 {vlog -work work C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/al_ip/PL.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module PL
+
+Top level modules:
+	PL
+
+} {} {}} C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/zero_cross_det.v {1 {vlog -work work C:/Users/Administrator/Desktop/2026FPGA/4_NCO/src/zero_cross_det.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module zero_cross_det
+
+Top level modules:
+	zero_cross_det
+
+} {} {}}

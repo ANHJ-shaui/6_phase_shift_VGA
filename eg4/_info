@@ -1,0 +1,1378 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrator\Desktop\2026FPGA\2_ADDA\28_adda_direct_B
+vdff_slice
+!i10b 1
+Z1 !s100 ?S1==^Lm]^l3IbhbD6i?Q2
+Z2 IT1@D73VzZ=LmbT>PR>@V^3
+Z3 V6_O8Y6[K8AimV:B7L:TJU1
+Z4 dC:\Users\Administrator\Desktop\2026FPGA\5_phase_shift
+Z5 w1752052136
+Z6 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_dff.v
+Z7 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_dff.v
+Z8 L0 107
+Z9 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z10 !s108 1790739795.217000
+Z11 !s107 C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_sdram_2m_32.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_pwrmnt.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_pll.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_pad.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_osc.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_mult18.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_mslice.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_lslice.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_glbl.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_fifo.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_dff.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_ddr_8m_16.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_csb.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_config.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_clk.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_bram32k.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_bram.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_bankref.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_adc.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_ramfifo.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_mult.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_iobuf.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_io.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_gate.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_fifo.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_dram16x4.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_dram.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_config.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_clk.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_bram.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_arith.v|
+Z12 !s90 -reportprogress|300|-work|eg4|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_arith.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_bram.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_clk.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_config.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_dram.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_dram16x4.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_fifo.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_gate.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_io.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_iobuf.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_mult.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_ramfifo.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_adc.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_bankref.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_bram.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_bram32k.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_clk.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_config.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_csb.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_ddr_8m_16.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_dff.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_fifo.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_glbl.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_lslice.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_mslice.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_mult18.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_osc.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_pad.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_pll.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_pwrmnt.v|C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_sdram_2m_32.v|
+!s101 -O0
+Z13 o-work eg4 -O0
+vdff_slice_half
+!i10b 1
+Z14 !s100 K7V5dkXIdJEG<^8C@ndPK2
+Z15 I4@mC4831WheI7eC4DSTCO1
+Z16 VzX7j1Y?LRk^J=>bDGZlgj2
+R4
+R5
+R6
+R7
+L0 23
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+veg_clko_ctrl
+!i10b 1
+Z17 !s100 YaW^5F<GkSMi<6T?fhnTe0
+Z18 Ii5LLJFeSPgkak47OYcHgj0
+Z19 VhnRglfViEJZlBPlj0V_cL0
+R4
+R5
+Z20 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_pll.v
+Z21 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_pll.v
+Z22 L0 1014
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+veg_clko_premux
+!i10b 1
+Z23 !s100 12SCS`bA50CJmVJJM5HMW0
+Z24 IY;<RISN9RUJ9I8^OXlf840
+Z25 V52AnmIDhzcP^Ra[RRDgRi1
+R4
+R5
+R20
+R21
+Z26 L0 995
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+veg_dphase_sel
+!i10b 1
+Z27 !s100 @_9h1b@^M^<5]VToMh`L03
+Z28 IMmF>R05k4=<HAY^B42^HI3
+Z29 V=f4j<:I1hnHU:Zm>2X5`?2
+R4
+R5
+R20
+R21
+Z30 L0 925
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+v/aDiFp5nt6csOobkPDHiVA==
+!i10b 0
+Z31 !s100 XhHJP05GK324aGIHD99Uj1
+Z32 IGZ>[_6ALEacOP0DZ@e?7o2
+Z33 VEea_Gf0Ge3FXH[4<MGaWW3
+!i8a 1165761600
+d.
+Z34 Fnofile
+L0 59
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z35 n46765ad
+vEG_LOGIC_BUF
+!i10b 1
+Z36 !s100 F4h>6UPTZHjHIjIgCB[4Y2
+Z37 IKL:cVj:<z2RElhUg>6?<z2
+Z38 Vc1zM@K4Z=^faDjC=92IAY3
+R4
+R5
+Z39 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_gate.v
+Z40 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_gate.v
+L0 23
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z41 n@e@g_@l@o@g@i@c_@b@u@f
+vEG_LOGIC_BUFG
+!i10b 1
+Z42 !s100 O6znF<]OCV<0MnMZ3oF[Y2
+Z43 I7_Lf18;G8kARzB4A;l[jC2
+Z44 VeOZ9I`DDDEkLidTYd^XNI0
+R4
+R5
+Z45 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_clk.v
+Z46 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_clk.v
+L0 24
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z47 n@e@g_@l@o@g@i@c_@b@u@f@g
+vEG_LOGIC_BUFGMUX
+!i10b 1
+Z48 !s100 8meT5B:_C]Z^4[^YCzDza3
+Z49 ISjQZ]7TYh<BX::Hk1<H2P3
+Z50 VC:ImGhk:MOl=ZWY911SYY2
+R4
+R5
+R45
+R46
+L0 53
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z51 n@e@g_@l@o@g@i@c_@b@u@f@g@m@u@x
+vEG_LOGIC_BUFIO
+!i10b 1
+Z52 !s100 aQ1dQeNO>4Q]N:4FBNT6E0
+Z53 ISbd1d3[P?R^am94OAbJGj3
+Z54 V<3VJ8^C6;[N4A`dGYkgLM1
+R4
+R5
+R45
+R46
+L0 32
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z55 n@e@g_@l@o@g@i@c_@b@u@f@i@o
+vEG_LOGIC_CCLK
+!i10b 1
+Z56 !s100 `lk121_KlPGlS]h0g6ef02
+Z57 ICI:n:o;dz>glPLaL_>QIk2
+Z58 VZR9k4P08:=UQ^?Tf`EHGE3
+R4
+R5
+Z59 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_config.v
+Z60 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_config.v
+L0 74
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z61 n@e@g_@l@o@g@i@c_@c@c@l@k
+vEG_LOGIC_DNA
+!i10b 1
+Z62 !s100 39RJX;;CaBa8b5>gb_`<12
+Z63 I0OfK@<nlB@lXT2Szj_85o0
+Z64 V^WonjF<S[;cG0PW82kKMJ0
+R4
+R5
+R59
+R60
+L0 37
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z65 n@e@g_@l@o@g@i@c_@d@n@a
+vEG_LOGIC_DRAM
+!i10b 1
+Z66 !s100 l<UOmf]KW=1lh[RX[f@8U2
+Z67 ID4EQKmd9=7OV0IIl<Fhnd1
+Z68 Vi4UDH<o>hSNl2^2nC=i0m1
+R4
+R5
+Z69 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_dram.v
+Z70 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_dram.v
+L0 21
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z71 n@e@g_@l@o@g@i@c_@d@r@a@m
+vEG_LOGIC_DRAM16X4
+!i10b 1
+Z72 !s100 z1I[Z?L=QbJFcI>7LPGil3
+Z73 I?8Q[`BE9H2mlO^]4;`F5]3
+Z74 VV9f828@:IaAVkb;Wf2o<G3
+R4
+R5
+Z75 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_dram16x4.v
+Z76 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_dram16x4.v
+L0 22
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z77 n@e@g_@l@o@g@i@c_@d@r@a@m16@x4
+vEG_LOGIC_FIFO
+!i10b 1
+Z78 !s100 6mmC0_zGf;Fa[gd;4a1gV2
+Z79 Id]kW<B?4nMIKFn8Sd[bn@1
+Z80 V=[BXkI_LcehgVg6KO76fn2
+R4
+R5
+Z81 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_fifo.v
+Z82 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_fifo.v
+L0 21
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z83 n@e@g_@l@o@g@i@c_@f@i@f@o
+vEG_LOGIC_GSRN
+!i10b 1
+Z84 !s100 ]@=U==bW:Hk@7N44>m9`C2
+Z85 IQ4R^m>Xf18O0aCdFnmU<T0
+Z86 V]AbjROL0DTlzn6@@Bf[Jm2
+R4
+R5
+R59
+R60
+L0 46
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z87 n@e@g_@l@o@g@i@c_@g@s@r@n
+vEG_LOGIC_IBUF
+!i10b 1
+Z88 !s100 7?K^LKZ@=nU]F9B;?z51g2
+Z89 IP6FYRhEDe2X3A:3KWP19j1
+Z90 VbzH@L^<LjY`N4b[USkdj30
+R4
+R5
+Z91 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_iobuf.v
+Z92 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_iobuf.v
+L0 24
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z93 n@e@g_@l@o@g@i@c_@i@b@u@f
+vEG_LOGIC_IDDR
+!i10b 1
+Z94 !s100 EhWS4VfnV29^gD8PB<]Ok0
+Z95 In@VWE^VfjL9]FWMO>]NO<2
+Z96 Vf:47>ZWbDkcC49@97@=L]1
+R4
+R5
+Z97 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_io.v
+Z98 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_io.v
+Z99 L0 134
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z100 n@e@g_@l@o@g@i@c_@i@d@d@r
+vEG_LOGIC_IDDRx2
+!i10b 1
+Z101 !s100 z]?ccJJ8:<DW_FmD59K[]0
+Z102 IQ<TlWn5G]>[Feahl3<aVj1
+Z103 V=5>zzIiOmATiZ3E0O_Thz3
+R4
+R5
+R97
+R98
+Z104 L0 244
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z105 n@e@g_@l@o@g@i@c_@i@d@d@rx2
+vEG_LOGIC_IDELAY
+!i10b 1
+Z106 !s100 =FT@J5cCC3n^Kjm`Qz=_23
+Z107 Ig37MLWJl=bPCIGMb1Gd3f0
+Z108 Vz;2g6=^KE?DfYn60>@g5^2
+R4
+R5
+R97
+R98
+L0 20
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z109 n@e@g_@l@o@g@i@c_@i@d@e@l@a@y
+vEG_LOGIC_IOTRIBUF
+!i10b 1
+Z110 !s100 =zf`Mm0cb;>NRKaMcJTo12
+Z111 IP[Wm:F@19cP8gQ1geR>k03
+Z112 VNTMA]`BV[6nE6m=ZEKCla1
+R4
+R5
+R91
+R92
+Z113 L0 168
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z114 n@e@g_@l@o@g@i@c_@i@o@t@r@i@b@u@f
+vEG_LOGIC_MBOOT
+!i10b 1
+Z115 !s100 oYLz0G]dck20i@9MeHfg62
+Z116 IEf_1F5nHNPC=2cJ9G<bg_2
+Z117 VUS4ZUCe?lGYIajEXaBz5>0
+R4
+R5
+R59
+R60
+L0 27
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z118 n@e@g_@l@o@g@i@c_@m@b@o@o@t
+vEG_LOGIC_MULT
+!i10b 1
+Z119 !s100 mofTFhSb9ZPb@o1n07SH=0
+Z120 IGoPjNLR6]zEgfZo>Ahg<I1
+Z121 VmOE<;mzLQ3F2AN9PoK=C50
+R4
+R5
+Z122 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_mult.v
+Z123 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_mult.v
+L0 21
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z124 n@e@g_@l@o@g@i@c_@m@u@l@t
+vEG_LOGIC_OBUF
+!i10b 1
+Z125 !s100 c2EOhVY]P=X=GclDR^MIl3
+Z126 IbWEo<E^IbCcT[n]27n`e:2
+Z127 VAX5MTJS;lcOTE`NRD8@LT0
+R4
+R5
+R91
+R92
+L0 95
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z128 n@e@g_@l@o@g@i@c_@o@b@u@f
+vEG_LOGIC_ODDR
+!i10b 1
+Z129 !s100 M::jDQCK>igCDBL4XjggT0
+Z130 Ij[N]e7ZbAkMX[WdZ3bZY93
+Z131 VlWgmY@mGWPc[og3fIDmdo1
+R4
+R5
+R97
+R98
+Z132 L0 191
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z133 n@e@g_@l@o@g@i@c_@o@d@d@r
+vEG_LOGIC_ODDRx2
+!i10b 1
+Z134 !s100 QaWG?i]V;kjo<gM^J1bJb0
+Z135 If3NKB:NfXkGW[^h>2e^F70
+Z136 Vih>lJjMPYb72ZlnF^L0;72
+R4
+R5
+R97
+R98
+Z137 L0 365
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z138 n@e@g_@l@o@g@i@c_@o@d@d@rx2
+vEG_LOGIC_ODDRx2l
+!i10b 1
+Z139 !s100 c8RCjdnSF>0?]bMFIdB0]3
+Z140 IAKW6f?:GeSCVJUAW0la:h3
+Z141 V1IzHRn2FIQ>96cnEfX4@P2
+R4
+R5
+R97
+R98
+Z142 L0 392
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z143 n@e@g_@l@o@g@i@c_@o@d@d@rx2l
+vEG_LOGIC_ODELAY
+!i10b 1
+Z144 !s100 :`V5UN7G;Q5f@>OgDgD6K2
+Z145 IMSUE[:kDibY_ooi=kW?O=3
+Z146 V1I:TF4S6Me7f<]9U]i5>V1
+R4
+R5
+R97
+R98
+Z147 L0 320
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z148 n@e@g_@l@o@g@i@c_@o@d@e@l@a@y
+vEG_LOGIC_RAMFIFO
+!i10b 1
+Z149 !s100 GHW2EMg9W?^GibS<GdIf52
+Z150 Ih01UNaV@8d6BS7N[MMA2:2
+Z151 VmjPl=HzBdHFG=eSgUj;T[1
+R4
+R5
+Z152 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_ramfifo.v
+Z153 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_ramfifo.v
+L0 10
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z154 n@e@g_@l@o@g@i@c_@r@a@m@f@i@f@o
+vEG_LOGIC_SEQ_DIV
+!i10b 1
+Z155 !s100 TY7:bMJ73nFik4]^mIzb?0
+Z156 I@:h63BN`h0386><12IVMN1
+Z157 VMcf4R]<^mKi[KZEMdRKHO0
+R4
+R5
+Z158 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_arith.v
+Z159 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_arith.v
+L0 22
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z160 n@e@g_@l@o@g@i@c_@s@e@q_@d@i@v
+vEG_PHY_ADC
+!i10b 1
+Z161 !s100 kaVBZP=U>l:g>bGT=_ToH0
+Z162 I<X:kd04=0LoWQ]KaSHRDX3
+Z163 Vg_jB4UO?]<6<869`ZF]8F0
+R4
+R5
+Z164 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_adc.v
+Z165 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_adc.v
+L0 21
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z166 n@e@g_@p@h@y_@a@d@c
+vEG_PHY_BANKREF
+!i10b 1
+Z167 !s100 l<Ra=Nj6YQVLH7eKK:?U60
+Z168 Im:NlKglDm9Ek?`<5=^mLm0
+Z169 VU6hi=kZ^V^<z8nP7GUn:L0
+R4
+R5
+Z170 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_bankref.v
+Z171 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_bankref.v
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z172 n@e@g_@p@h@y_@b@a@n@k@r@e@f
+vEG_PHY_BRAM
+!i10b 1
+Z173 !s100 <c41^FLQNaB3<eOYkEXP;2
+Z174 IlPA8Q6LEX?_PZkn4<lI860
+Z175 V0A2;Bg5hnXdP_?Id7RV]l0
+R4
+R5
+Z176 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_bram.v
+Z177 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_bram.v
+L0 83
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z178 n@e@g_@p@h@y_@b@r@a@m
+vEG_PHY_BRAM32K
+!i10b 1
+Z179 !s100 2infK5[GfOoD_1g=8kQ:c3
+Z180 IHffMNO;FNI5oLkfTVda0J2
+Z181 VCPDO7]j[P<`:QnH`ZfY5I0
+R4
+R5
+Z182 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_bram32k.v
+Z183 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_bram32k.v
+L0 71
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z184 n@e@g_@p@h@y_@b@r@a@m32@k
+vEG_PHY_CLKDIV
+!i10b 1
+Z185 !s100 eWUD3iFzO`J_KnH^o]1K03
+Z186 InU_4B4>QDMUKXVf1Lz=]o3
+Z187 V]ic`Sf3Eh:mgVPdj3Lf820
+R4
+R5
+Z188 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_clk.v
+Z189 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_clk.v
+L0 80
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z190 n@e@g_@p@h@y_@c@l@k@d@i@v
+vEG_PHY_CONFIG
+!i10b 1
+Z191 !s100 Fl7=[`AP1l`j?AN^inVN@2
+Z192 IWIHMKzjDWm36S31:K1LgP1
+Z193 VJ6kB9>2zN>T4n30e;Nl1E1
+R4
+R5
+Z194 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_config.v
+Z195 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_config.v
+L0 22
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z196 n@e@g_@p@h@y_@c@o@n@f@i@g
+voiNMHtPm2eZBKbc38qG2Xg==
+!i10b 0
+Z197 !s100 PCLh0k?JYiLUd8<fiWbdk2
+Z198 IJ7M[lkf@iSAk7D?o>KJXX3
+Z199 VH4fn5@mkPZJ35ciz2:V490
+!i8a 1165761600
+d.
+R34
+L0 59
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z200 n4dba532
+vEG_PHY_DDR_8M_16
+!i10b 1
+Z201 !s100 WRL4G0dDn]44YVDg7_Qc`0
+Z202 IGQ5TGad_S8PD`^zzej4jz2
+Z203 VR8FoBOW6Tb390M]Ii7MA40
+R4
+R5
+Z204 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_ddr_8m_16.v
+Z205 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_ddr_8m_16.v
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z206 n@e@g_@p@h@y_@d@d@r_8@m_16
+vEG_PHY_FIFO
+!i10b 1
+Z207 !s100 jzN;a^]hUIeF<GG@DaIFC0
+Z208 I^YFG93[OFdWm[HiLW044C3
+Z209 Vl6Ygo:XGf:N:0Q4dBk[N22
+R4
+R5
+Z210 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_fifo.v
+Z211 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_fifo.v
+L0 24
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z212 n@e@g_@p@h@y_@f@i@f@o
+vEG_PHY_GCLK
+!i10b 1
+Z213 !s100 Z0;dGdR>F7iR6HZ3RO1Oh1
+Z214 IMYC8W_<O9;b0[Tn[7inc;2
+Z215 VP3zdEFMlb5RbBP9BV:7kA1
+R4
+R5
+R188
+R189
+L0 21
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z216 n@e@g_@p@h@y_@g@c@l@k
+vEG_PHY_IOCLK
+!i10b 1
+Z217 !s100 ;;S[f2jPPB8EM53mz<K7G0
+Z218 IVZXX?HOFSAlN3omFnaE>@2
+Z219 V:e3eT4acPgiV2I5o9<Bz<1
+R4
+R5
+R188
+R189
+L0 32
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z220 n@e@g_@p@h@y_@i@o@c@l@k
+vEG_PHY_LSLICE
+!i10b 1
+Z221 !s100 <cOAl@4RLLUI27=:SG[4f1
+Z222 IFkK<0]gdfREE1Z=QUbf=T0
+Z223 V0ZlF`<PfHeLcQ9JJGQE?L1
+R4
+R5
+Z224 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_lslice.v
+Z225 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_lslice.v
+L0 77
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z226 n@e@g_@p@h@y_@l@s@l@i@c@e
+vEG_PHY_MSLICE
+!i10b 1
+Z227 !s100 EJc3FYMkg0aBohic;J`Ha3
+Z228 IM7]iRjDAbi[fRhcCMDbgo3
+Z229 V7fT1f6EAmWXOZFXTE[?=f0
+R4
+R5
+Z230 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_mslice.v
+Z231 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_mslice.v
+L0 78
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z232 n@e@g_@p@h@y_@m@s@l@i@c@e
+vEG_PHY_MULT18
+!i10b 1
+Z233 !s100 0UoJ;ZNm;EAlQ@3o4PEQJ0
+Z234 Ij80JCV9HGOScH6f96HRQ10
+Z235 Vj90=lW<<1YS2jlJ19[<OL1
+R4
+R5
+Z236 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_mult18.v
+Z237 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_mult18.v
+L0 23
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z238 n@e@g_@p@h@y_@m@u@l@t18
+vEG_PHY_OSC
+!i10b 1
+Z239 !s100 ;QPYX^foAgjm6@zocT?be0
+Z240 Ibm4F4X`OoR5P2M>^EDYPO3
+Z241 VJEWRIGmVC_SzAXl1QP?J60
+R4
+R5
+Z242 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_osc.v
+Z243 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_osc.v
+L0 23
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z244 n@e@g_@p@h@y_@o@s@c
+vEG_PHY_PAD
+!i10b 1
+Z245 !s100 7XD5Fi]I9[Of]7kKOA:oQ2
+Z246 I@Dm][]2fkDZNNfeK^>J=53
+Z247 VA<d_2QW4Q_YKAL>115TaC2
+R4
+R5
+Z248 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_pad.v
+Z249 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_pad.v
+L0 75
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z250 n@e@g_@p@h@y_@p@a@d
+vEG_PHY_PLL
+!i10b 1
+Z251 !s100 _QYeQ78M8dAQ1jMgnHiHA0
+Z252 IZc8X[m40S<>^K9;?90hQJ2
+Z253 V2zXWKiia<^[;RJ8@W1hY;3
+R4
+R5
+R20
+R21
+L0 25
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z254 n@e@g_@p@h@y_@p@l@l
+vEG_PHY_PWRMNT
+!i10b 1
+Z255 !s100 i1QZ6AZOHboLBlCTzdbKX3
+Z256 IH@DHFRe2J51]WE9RN3VOD1
+Z257 V[^iD6]L4?BFZ6iG1OWW2Q1
+R4
+R5
+Z258 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_pwrmnt.v
+Z259 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_pwrmnt.v
+L0 24
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z260 n@e@g_@p@h@y_@p@w@r@m@n@t
+vEG_PHY_SDRAM_2M_32
+!i10b 1
+Z261 !s100 4PLG4:Kd>4o3@ZV?KR_383
+Z262 IFPEJUB45Y2Ue0Cj8<=JPP3
+Z263 Vngi2YAPlLIG[V1Zf5;75A1
+R4
+R5
+Z264 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_sdram_2m_32.v
+Z265 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_sdram_2m_32.v
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z266 n@e@g_@p@h@y_@s@d@r@a@m_2@m_32
+veg_pll_div128
+!i10b 1
+Z267 !s100 Mn?>Ill6E7oX]W:LDJZ=j3
+Z268 I=B0?mlBj?9U2P[e83Q`ml0
+Z269 Vb5QzRG`KfJLVH9fUAVnW>0
+R4
+R5
+R20
+R21
+Z270 L0 1033
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+veg_pll_div2
+!i10b 1
+Z271 !s100 iKDR[Nh57P[l6RG_3KOb63
+Z272 II;J^QMoY=X1@^5?NQb1aN3
+Z273 V2TYOK0RJYC;DMPnX5EVON3
+R4
+R5
+R20
+R21
+Z274 L0 1105
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+v5xDMTT9/HjhqjVY0Sj8ETg==
+!i10b 0
+Z275 !s100 blMZE>DahUGR>5_`bd[633
+Z276 IkkWcn0QhgUdi<=FeAO1^h2
+Z277 Vmg=T4aO0>Y5EYhb2LE;be1
+!i8a 1165761600
+d.
+R34
+L0 59
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z278 n4e701e4
+vTe/Nzzmveain4Yz8Tyaeaw==
+!i10b 0
+Z279 !s100 G<V_jBL2l7^3W=8o:kVhj2
+Z280 INJY39CFC1DSZAHF1Un<Fb0
+Z281 VXLje@EOXA0YBIGJUZFS;;2
+!i8a 1165761600
+d.
+R34
+L0 59
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z282 nc4e5bfd
+vGDWi5UDRi6lJ4QcIDn6r5w==
+!i10b 0
+Z283 !s100 ^EFXIE`CF1?C>0ABQgTkE0
+Z284 I:P7^MAJ^anUP9oShIF7K22
+Z285 VRfmzo7ndiEXEj940Q7ZS11
+!i8a 1165761600
+d.
+R34
+L0 59
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z286 nc4e5be2
+vglbl
+!i10b 1
+Z287 !s100 P2G@QgmzIfH:OF`8?ozj81
+Z288 IBM8UL87a`I11]_4m;zoU]2
+Z289 VDbL]YG2GFhLmAAcPD`b9d2
+R4
+R5
+Z290 8C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_glbl.v
+Z291 FC:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_phy_glbl.v
+L0 23
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+vgray2bin
+!i10b 1
+Z292 !s100 E0;`9@Ua;VQ6dLDjlDVLn1
+Z293 I@?ejDa_0JRMK3DmPT@a0N2
+Z294 V<dP=niG;2AMX^l?:YXQO`1
+R4
+R5
+R152
+R153
+Z295 L0 277
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+vgray_count
+!i10b 1
+Z296 !s100 @Ol25cElUL1KcN^ASLd`E1
+Z297 IeG45KoDDAOgKf^i]a0lh=3
+Z298 Vn6@;IO;TLoYaOiLA6fzA]0
+R4
+R5
+R152
+R153
+Z299 L0 297
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+vHARD_SAR12_ADC
+!i10b 1
+Z300 !s100 3ICzHTFHUQMR?4U2WXVQ>0
+Z301 IK1HzzYI2CDJg9lkoeMbVV3
+Z302 VLW1Qzk]BgaWUKOD[dGi6R0
+R4
+R5
+R164
+R165
+L0 99
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z303 n@h@a@r@d_@s@a@r12_@a@d@c
+vvgUS3uY/UskW0IGU48en9Q==
+!i10b 0
+Z304 !s100 Ge9dh<P^T7BGQD<oLJLY<2
+Z305 I<__@IFh6Tl:O?EXEHYHC=2
+Z306 V1]zDeoO_WNFH?E5oc[CKT1
+!i8a 1165761600
+d.
+R34
+Z307 L0 526
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z308 n8f3e900
+vTwjw/tiEEpZ53blf8YHXtw==
+!i10b 0
+Z309 !s100 ^kJ^c@?YUJf[hNji]9YK>2
+Z310 IZoVMY;1]6Slbj@4D4Dkj22
+Z311 V?<S<:_LdK5]az:6FUDFm`1
+!i8a 1165761600
+d.
+R34
+Z312 L0 574
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z313 n8f3e902
+vt+/MOSOUe9sxAwp2B9hl7w==
+!i10b 0
+Z314 !s100 memSWXb>><cl6iA5JbaSU1
+Z315 IH;BjHBF9mjkm;zSlXCQ2k2
+Z316 Vl6j97i;l55GS=SUg<<:oI1
+!i8a 1165761600
+d.
+R34
+R312
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z317 n8f3e903
+vpfb_dffctrl
+!i10b 1
+Z318 !s100 <igRG:oOUZ@De9_lg4l@P1
+Z319 I[C3o2Nl8[gIYYbmWk=9JN3
+Z320 Vf[PQF@;Tc]EeP>8iZLDGH0
+R4
+R5
+R6
+R7
+L0 91
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+vwVEceBiOBjK5kbESbsYFFg==
+!i10b 0
+Z321 !s100 ZjzNUZVTzQ1bR[=QUo[B23
+Z322 IdTOGb=WB4DE[]>j_JTzPz0
+Z323 VU77TIS]f=k9?a4L_z<EV=2
+!i8a 1165761600
+d.
+R34
+R312
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z324 n31e7b88
+vjVzz3hcasr/ezybaWOOBCQ==
+!i10b 0
+Z325 !s100 Dao81m6oHPhI22CN<7JU73
+Z326 Ik6PHEf7kX3fczNn55TOFH1
+Z327 V0M:S3caEfhP48?:T:;IBG3
+!i8a 1165761600
+d.
+R34
+R307
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z328 neb3caf0
+v63x6fHyquTuDGDkBOp8CYjLuONcY0a16G8+SxLGOkJQ=
+!i10b 0
+Z329 !s100 JRLUGGOjoI_aPlLE3_VWd3
+Z330 IaBhHaU6Z7h9UOj:;fEfJB2
+Z331 VOgIO@Ei_9:U7S]Wk]0KnV0
+!i8a 1165761600
+d.
+R34
+R307
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z332 n5d061c8
+vHemiPfHv1LfU7MhaRdUQCWCJZw6voq4nGiCNm8iJwSU=
+!i10b 0
+Z333 !s100 e=JcoSGS3Ug@c1=^TW2io0
+Z334 IDTU3liYBiWW3AjC:d7VCQ2
+Z335 Vzm1@5Ka0hHco[523i6<5d2
+!i8a 1165761600
+d.
+R34
+R307
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z336 n5d1a974
+vN7hHCMdqmHIKwJHdSWk7jnWKvTrdymHV5tt24IO9kbM=
+!i10b 0
+Z337 !s100 eKC3`01_UZYO4bWm>3aYY2
+Z338 IYC@:dgK?CB[>0hUInen;f1
+Z339 VlFc8kc<?2FFAUAkHVYB@E2
+!i8a 1165761600
+d.
+R34
+R312
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+Z340 n331a974
+vprediv_mux
+!i10b 1
+Z341 !s100 :fR<hTZzJWZZ@Y^4P8FLK3
+Z342 I=;WRg>=mNAgDZL4Vzb6HM2
+Z343 VZld2?6lXV=Cez5IW`XB]Z3
+R4
+R5
+R20
+R21
+Z344 L0 904
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+vshowahead_buffer
+!i10b 1
+Z345 !s100 NHnASCibNP6k:^C6>9]Ic3
+Z346 IOT232ESI>j:J8bAQD]C<Z1
+Z347 Ve1][^NYKXzR?70cU:nYLH0
+R4
+R5
+R152
+R153
+Z348 L0 341
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+vAqlBtFerEYVwWslJpD4lJQ==
+!i10b 0
+Z349 !s100 O<k>7EOQaNE^15DM37jU^1
+Z350 Ie^XK5B=PcmN?Odkn5_fQO2
+Z351 V;P[];SW4FCUXWj?^<Q?HY0
+!i8a 1165761600
+d.
+R34
+L0 59
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+n7ae3
